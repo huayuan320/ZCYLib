@@ -3,7 +3,7 @@
 //  AvoidCrashDemo
 //
 //  Created by mac on 16/10/11.
-//  Copyright © 2016年 chenfanfang. All rights reserved.
+//  Copyright © 2016年 zhaochenyu. All rights reserved.
 //
 
 #import "NSObject+AvoidCrash.h"

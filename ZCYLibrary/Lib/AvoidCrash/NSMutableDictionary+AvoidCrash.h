@@ -3,7 +3,7 @@
 //  AvoidCrash
 //
 //  Created by mac on 16/9/22.
-//  Copyright © 2016年 chenfanfang. All rights reserved.
+//  Copyright © 2016年 zhaochenyu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

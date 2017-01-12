@@ -3,7 +3,7 @@
 //  AvoidCrashDemo
 //
 //  Created by mac on 16/10/6.
-//  Copyright © 2016年 chenfanfang. All rights reserved.
+//  Copyright © 2016年 zhaochenyu. All rights reserved.
 //
 
 #import "NSMutableString+AvoidCrash.h"
