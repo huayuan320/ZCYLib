@@ -1,0 +1,1695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F0A17E1E2762BC00B023E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A17D1E2762BC00B023E9 /* main.m */; };
+		23F0A1811E2762BC00B023E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1801E2762BC00B023E9 /* AppDelegate.m */; };
+		23F0A1841E2762BC00B023E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1831E2762BC00B023E9 /* ViewController.m */; };
+		23F0A1871E2762BC00B023E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1851E2762BC00B023E9 /* Main.storyboard */; };
+		23F0A1891E2762BC00B023E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1881E2762BC00B023E9 /* Assets.xcassets */; };
+		23F0A18C1E2762BC00B023E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A18A1E2762BC00B023E9 /* LaunchScreen.storyboard */; };
+		23F0A2EE1E2762DC00B023E9 /* AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1961E2762DB00B023E9 /* AvoidCrash.m */; };
+		23F0A2EF1E2762DC00B023E9 /* NSArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1981E2762DB00B023E9 /* NSArray+AvoidCrash.m */; };
+		23F0A2F01E2762DC00B023E9 /* NSAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A19A1E2762DB00B023E9 /* NSAttributedString+AvoidCrash.m */; };
+		23F0A2F11E2762DC00B023E9 /* NSDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A19C1E2762DB00B023E9 /* NSDictionary+AvoidCrash.m */; };
+		23F0A2F21E2762DC00B023E9 /* NSMutableArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A19E1E2762DB00B023E9 /* NSMutableArray+AvoidCrash.m */; };
+		23F0A2F31E2762DC00B023E9 /* NSMutableAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1A01E2762DB00B023E9 /* NSMutableAttributedString+AvoidCrash.m */; };
+		23F0A2F41E2762DC00B023E9 /* NSMutableDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1A21E2762DB00B023E9 /* NSMutableDictionary+AvoidCrash.m */; };
+		23F0A2F51E2762DC00B023E9 /* NSMutableString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1A41E2762DB00B023E9 /* NSMutableString+AvoidCrash.m */; };
+		23F0A2F61E2762DC00B023E9 /* NSObject+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1A61E2762DB00B023E9 /* NSObject+AvoidCrash.m */; };
+		23F0A2F71E2762DC00B023E9 /* NSString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1A81E2762DB00B023E9 /* NSString+AvoidCrash.m */; };
+		23F0A2F81E2762DC00B023E9 /* ZCYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1AD1E2762DB00B023E9 /* ZCYAnimation.m */; };
+		23F0A2F91E2762DC00B023E9 /* PULL_REQUEST_TEMPLATE.md in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1B01E2762DB00B023E9 /* PULL_REQUEST_TEMPLATE.md */; };
+		23F0A2FA1E2762DC00B023E9 /* Actionscript.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B11E2762DB00B023E9 /* Actionscript.gitignore */; };
+		23F0A2FB1E2762DC00B023E9 /* Ada.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B21E2762DB00B023E9 /* Ada.gitignore */; };
+		23F0A2FC1E2762DC00B023E9 /* Agda.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B31E2762DB00B023E9 /* Agda.gitignore */; };
+		23F0A2FD1E2762DC00B023E9 /* Android.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B41E2762DB00B023E9 /* Android.gitignore */; };
+		23F0A2FE1E2762DC00B023E9 /* AppceleratorTitanium.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B51E2762DB00B023E9 /* AppceleratorTitanium.gitignore */; };
+		23F0A2FF1E2762DC00B023E9 /* AppEngine.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B61E2762DB00B023E9 /* AppEngine.gitignore */; };
+		23F0A3001E2762DC00B023E9 /* ArchLinuxPackages.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B71E2762DB00B023E9 /* ArchLinuxPackages.gitignore */; };
+		23F0A3011E2762DC00B023E9 /* Autotools.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B81E2762DB00B023E9 /* Autotools.gitignore */; };
+		23F0A3021E2762DC00B023E9 /* C++.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1B91E2762DB00B023E9 /* C++.gitignore */; };
+		23F0A3031E2762DC00B023E9 /* C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1BA1E2762DB00B023E9 /* C.gitignore */; };
+		23F0A3041E2762DC00B023E9 /* CakePHP.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1BB1E2762DB00B023E9 /* CakePHP.gitignore */; };
+		23F0A3051E2762DC00B023E9 /* CFWheels.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1BC1E2762DB00B023E9 /* CFWheels.gitignore */; };
+		23F0A3061E2762DC00B023E9 /* ChefCookbook.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1BD1E2762DB00B023E9 /* ChefCookbook.gitignore */; };
+		23F0A3071E2762DC00B023E9 /* Clojure.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1BE1E2762DB00B023E9 /* Clojure.gitignore */; };
+		23F0A3081E2762DC00B023E9 /* CMake.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1BF1E2762DB00B023E9 /* CMake.gitignore */; };
+		23F0A3091E2762DC00B023E9 /* CodeIgniter.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C01E2762DB00B023E9 /* CodeIgniter.gitignore */; };
+		23F0A30A1E2762DC00B023E9 /* CommonLisp.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C11E2762DB00B023E9 /* CommonLisp.gitignore */; };
+		23F0A30B1E2762DC00B023E9 /* Composer.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C21E2762DB00B023E9 /* Composer.gitignore */; };
+		23F0A30C1E2762DC00B023E9 /* Concrete5.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C31E2762DB00B023E9 /* Concrete5.gitignore */; };
+		23F0A30D1E2762DC00B023E9 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A1C41E2762DB00B023E9 /* CONTRIBUTING.md */; };
+		23F0A30E1E2762DC00B023E9 /* Coq.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C51E2762DB00B023E9 /* Coq.gitignore */; };
+		23F0A30F1E2762DC00B023E9 /* CraftCMS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C61E2762DB00B023E9 /* CraftCMS.gitignore */; };
+		23F0A3101E2762DC00B023E9 /* CUDA.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C71E2762DB00B023E9 /* CUDA.gitignore */; };
+		23F0A3111E2762DC00B023E9 /* D.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C81E2762DB00B023E9 /* D.gitignore */; };
+		23F0A3121E2762DC00B023E9 /* Dart.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1C91E2762DB00B023E9 /* Dart.gitignore */; };
+		23F0A3131E2762DC00B023E9 /* Delphi.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1CA1E2762DB00B023E9 /* Delphi.gitignore */; };
+		23F0A3141E2762DC00B023E9 /* DM.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1CB1E2762DB00B023E9 /* DM.gitignore */; };
+		23F0A3151E2762DC00B023E9 /* Drupal.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1CC1E2762DB00B023E9 /* Drupal.gitignore */; };
+		23F0A3161E2762DC00B023E9 /* Eagle.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1CD1E2762DB00B023E9 /* Eagle.gitignore */; };
+		23F0A3171E2762DC00B023E9 /* Elisp.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1CE1E2762DB00B023E9 /* Elisp.gitignore */; };
+		23F0A3181E2762DC00B023E9 /* Elixir.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1CF1E2762DB00B023E9 /* Elixir.gitignore */; };
+		23F0A3191E2762DC00B023E9 /* Elm.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D01E2762DB00B023E9 /* Elm.gitignore */; };
+		23F0A31A1E2762DC00B023E9 /* EPiServer.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D11E2762DB00B023E9 /* EPiServer.gitignore */; };
+		23F0A31B1E2762DC00B023E9 /* Erlang.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D21E2762DB00B023E9 /* Erlang.gitignore */; };
+		23F0A31C1E2762DC00B023E9 /* ExpressionEngine.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D31E2762DB00B023E9 /* ExpressionEngine.gitignore */; };
+		23F0A31D1E2762DC00B023E9 /* ExtJs.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D41E2762DB00B023E9 /* ExtJs.gitignore */; };
+		23F0A31E1E2762DC00B023E9 /* Fancy.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D51E2762DB00B023E9 /* Fancy.gitignore */; };
+		23F0A31F1E2762DC00B023E9 /* Finale.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D61E2762DB00B023E9 /* Finale.gitignore */; };
+		23F0A3201E2762DC00B023E9 /* ForceDotCom.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D71E2762DB00B023E9 /* ForceDotCom.gitignore */; };
+		23F0A3211E2762DC00B023E9 /* Fortran.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D81E2762DB00B023E9 /* Fortran.gitignore */; };
+		23F0A3221E2762DC00B023E9 /* FuelPHP.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1D91E2762DB00B023E9 /* FuelPHP.gitignore */; };
+		23F0A3231E2762DC00B023E9 /* Gcov.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1DA1E2762DB00B023E9 /* Gcov.gitignore */; };
+		23F0A3241E2762DC00B023E9 /* GitBook.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1DB1E2762DB00B023E9 /* GitBook.gitignore */; };
+		23F0A3251E2762DC00B023E9 /* Anjuta.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1DD1E2762DB00B023E9 /* Anjuta.gitignore */; };
+		23F0A3261E2762DC00B023E9 /* Ansible.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1DE1E2762DB00B023E9 /* Ansible.gitignore */; };
+		23F0A3271E2762DC00B023E9 /* Archives.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1DF1E2762DB00B023E9 /* Archives.gitignore */; };
+		23F0A3281E2762DC00B023E9 /* Bazaar.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E01E2762DB00B023E9 /* Bazaar.gitignore */; };
+		23F0A3291E2762DC00B023E9 /* BricxCC.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E11E2762DB00B023E9 /* BricxCC.gitignore */; };
+		23F0A32A1E2762DC00B023E9 /* Calabash.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E21E2762DB00B023E9 /* Calabash.gitignore */; };
+		23F0A32B1E2762DC00B023E9 /* Cloud9.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E31E2762DB00B023E9 /* Cloud9.gitignore */; };
+		23F0A32C1E2762DC00B023E9 /* CodeKit.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E41E2762DB00B023E9 /* CodeKit.gitignore */; };
+		23F0A32D1E2762DC00B023E9 /* CVS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E51E2762DB00B023E9 /* CVS.gitignore */; };
+		23F0A32E1E2762DC00B023E9 /* DartEditor.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E61E2762DB00B023E9 /* DartEditor.gitignore */; };
+		23F0A32F1E2762DC00B023E9 /* Dreamweaver.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E71E2762DB00B023E9 /* Dreamweaver.gitignore */; };
+		23F0A3301E2762DC00B023E9 /* Dropbox.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E81E2762DB00B023E9 /* Dropbox.gitignore */; };
+		23F0A3311E2762DC00B023E9 /* Eclipse.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1E91E2762DB00B023E9 /* Eclipse.gitignore */; };
+		23F0A3321E2762DC00B023E9 /* EiffelStudio.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1EA1E2762DB00B023E9 /* EiffelStudio.gitignore */; };
+		23F0A3331E2762DC00B023E9 /* Emacs.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1EB1E2762DB00B023E9 /* Emacs.gitignore */; };
+		23F0A3341E2762DC00B023E9 /* Ensime.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1EC1E2762DB00B023E9 /* Ensime.gitignore */; };
+		23F0A3351E2762DC00B023E9 /* Espresso.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1ED1E2762DB00B023E9 /* Espresso.gitignore */; };
+		23F0A3361E2762DC00B023E9 /* FlexBuilder.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1EE1E2762DB00B023E9 /* FlexBuilder.gitignore */; };
+		23F0A3371E2762DC00B023E9 /* GPG.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1EF1E2762DB00B023E9 /* GPG.gitignore */; };
+		23F0A3381E2762DC00B023E9 /* JDeveloper.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F01E2762DB00B023E9 /* JDeveloper.gitignore */; };
+		23F0A3391E2762DC00B023E9 /* JetBrains.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F11E2762DB00B023E9 /* JetBrains.gitignore */; };
+		23F0A33A1E2762DC00B023E9 /* Kate.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F21E2762DB00B023E9 /* Kate.gitignore */; };
+		23F0A33B1E2762DC00B023E9 /* KDevelop4.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F31E2762DB00B023E9 /* KDevelop4.gitignore */; };
+		23F0A33C1E2762DC00B023E9 /* Lazarus.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F41E2762DB00B023E9 /* Lazarus.gitignore */; };
+		23F0A33D1E2762DC00B023E9 /* LibreOffice.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F51E2762DB00B023E9 /* LibreOffice.gitignore */; };
+		23F0A33E1E2762DC00B023E9 /* Linux.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F61E2762DB00B023E9 /* Linux.gitignore */; };
+		23F0A33F1E2762DC00B023E9 /* LyX.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F71E2762DB00B023E9 /* LyX.gitignore */; };
+		23F0A3401E2762DC00B023E9 /* macOS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F81E2762DB00B023E9 /* macOS.gitignore */; };
+		23F0A3411E2762DC00B023E9 /* Matlab.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1F91E2762DB00B023E9 /* Matlab.gitignore */; };
+		23F0A3421E2762DC00B023E9 /* Mercurial.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1FA1E2762DB00B023E9 /* Mercurial.gitignore */; };
+		23F0A3431E2762DC00B023E9 /* MicrosoftOffice.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1FB1E2762DB00B023E9 /* MicrosoftOffice.gitignore */; };
+		23F0A3441E2762DC00B023E9 /* ModelSim.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1FC1E2762DB00B023E9 /* ModelSim.gitignore */; };
+		23F0A3451E2762DC00B023E9 /* Momentics.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1FD1E2762DB00B023E9 /* Momentics.gitignore */; };
+		23F0A3461E2762DC00B023E9 /* MonoDevelop.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1FE1E2762DB00B023E9 /* MonoDevelop.gitignore */; };
+		23F0A3471E2762DC00B023E9 /* NetBeans.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A1FF1E2762DB00B023E9 /* NetBeans.gitignore */; };
+		23F0A3481E2762DC00B023E9 /* Ninja.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2001E2762DB00B023E9 /* Ninja.gitignore */; };
+		23F0A3491E2762DC00B023E9 /* NotepadPP.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2011E2762DB00B023E9 /* NotepadPP.gitignore */; };
+		23F0A34A1E2762DC00B023E9 /* Otto.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2021E2762DB00B023E9 /* Otto.gitignore */; };
+		23F0A34B1E2762DC00B023E9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2031E2762DB00B023E9 /* README.md */; };
+		23F0A34C1E2762DC00B023E9 /* Redcar.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2041E2762DB00B023E9 /* Redcar.gitignore */; };
+		23F0A34D1E2762DC00B023E9 /* Redis.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2051E2762DB00B023E9 /* Redis.gitignore */; };
+		23F0A34E1E2762DC00B023E9 /* SBT.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2061E2762DB00B023E9 /* SBT.gitignore */; };
+		23F0A34F1E2762DC00B023E9 /* SlickEdit.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2071E2762DB00B023E9 /* SlickEdit.gitignore */; };
+		23F0A3501E2762DC00B023E9 /* SublimeText.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2081E2762DB00B023E9 /* SublimeText.gitignore */; };
+		23F0A3511E2762DC00B023E9 /* SVN.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2091E2762DB00B023E9 /* SVN.gitignore */; };
+		23F0A3521E2762DC00B023E9 /* SynopsysVCS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A20A1E2762DB00B023E9 /* SynopsysVCS.gitignore */; };
+		23F0A3531E2762DC00B023E9 /* Tags.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A20B1E2762DB00B023E9 /* Tags.gitignore */; };
+		23F0A3541E2762DC00B023E9 /* TextMate.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A20C1E2762DB00B023E9 /* TextMate.gitignore */; };
+		23F0A3551E2762DC00B023E9 /* TortoiseGit.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A20D1E2762DB00B023E9 /* TortoiseGit.gitignore */; };
+		23F0A3561E2762DC00B023E9 /* Vagrant.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A20E1E2762DB00B023E9 /* Vagrant.gitignore */; };
+		23F0A3571E2762DC00B023E9 /* Vim.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A20F1E2762DB00B023E9 /* Vim.gitignore */; };
+		23F0A3581E2762DC00B023E9 /* VirtualEnv.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2101E2762DB00B023E9 /* VirtualEnv.gitignore */; };
+		23F0A3591E2762DC00B023E9 /* VisualStudioCode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2111E2762DB00B023E9 /* VisualStudioCode.gitignore */; };
+		23F0A35A1E2762DC00B023E9 /* WebMethods.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2121E2762DB00B023E9 /* WebMethods.gitignore */; };
+		23F0A35B1E2762DC00B023E9 /* Windows.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2131E2762DB00B023E9 /* Windows.gitignore */; };
+		23F0A35C1E2762DC00B023E9 /* Xcode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2141E2762DB00B023E9 /* Xcode.gitignore */; };
+		23F0A35D1E2762DC00B023E9 /* XilinxISE.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2151E2762DB00B023E9 /* XilinxISE.gitignore */; };
+		23F0A35E1E2762DC00B023E9 /* Go.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2161E2762DB00B023E9 /* Go.gitignore */; };
+		23F0A35F1E2762DC00B023E9 /* Gradle.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2171E2762DB00B023E9 /* Gradle.gitignore */; };
+		23F0A3601E2762DC00B023E9 /* Grails.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2181E2762DB00B023E9 /* Grails.gitignore */; };
+		23F0A3611E2762DC00B023E9 /* GWT.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2191E2762DB00B023E9 /* GWT.gitignore */; };
+		23F0A3621E2762DC00B023E9 /* Haskell.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A21A1E2762DB00B023E9 /* Haskell.gitignore */; };
+		23F0A3631E2762DC00B023E9 /* Idris.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A21B1E2762DB00B023E9 /* Idris.gitignore */; };
+		23F0A3641E2762DC00B023E9 /* IGORPro.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A21C1E2762DB00B023E9 /* IGORPro.gitignore */; };
+		23F0A3651E2762DC00B023E9 /* Java.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A21D1E2762DB00B023E9 /* Java.gitignore */; };
+		23F0A3661E2762DC00B023E9 /* Jboss.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A21E1E2762DB00B023E9 /* Jboss.gitignore */; };
+		23F0A3671E2762DC00B023E9 /* Jekyll.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A21F1E2762DB00B023E9 /* Jekyll.gitignore */; };
+		23F0A3681E2762DC00B023E9 /* Joomla.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2201E2762DB00B023E9 /* Joomla.gitignore */; };
+		23F0A3691E2762DC00B023E9 /* Julia.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2211E2762DB00B023E9 /* Julia.gitignore */; };
+		23F0A36A1E2762DC00B023E9 /* KiCad.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2221E2762DB00B023E9 /* KiCad.gitignore */; };
+		23F0A36B1E2762DC00B023E9 /* Kohana.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2231E2762DB00B023E9 /* Kohana.gitignore */; };
+		23F0A36C1E2762DC00B023E9 /* LabVIEW.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2241E2762DB00B023E9 /* LabVIEW.gitignore */; };
+		23F0A36D1E2762DC00B023E9 /* Laravel.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2251E2762DB00B023E9 /* Laravel.gitignore */; };
+		23F0A36E1E2762DC00B023E9 /* Leiningen.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2261E2762DB00B023E9 /* Leiningen.gitignore */; };
+		23F0A36F1E2762DC00B023E9 /* LemonStand.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2271E2762DB00B023E9 /* LemonStand.gitignore */; };
+		23F0A3701E2762DC00B023E9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2281E2762DB00B023E9 /* LICENSE */; };
+		23F0A3711E2762DC00B023E9 /* Lilypond.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2291E2762DB00B023E9 /* Lilypond.gitignore */; };
+		23F0A3721E2762DC00B023E9 /* Lithium.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A22A1E2762DB00B023E9 /* Lithium.gitignore */; };
+		23F0A3731E2762DC00B023E9 /* Lua.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A22B1E2762DB00B023E9 /* Lua.gitignore */; };
+		23F0A3741E2762DC00B023E9 /* Magento.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A22C1E2762DB00B023E9 /* Magento.gitignore */; };
+		23F0A3751E2762DC00B023E9 /* Maven.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A22D1E2762DB00B023E9 /* Maven.gitignore */; };
+		23F0A3761E2762DC00B023E9 /* Mercury.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A22E1E2762DB00B023E9 /* Mercury.gitignore */; };
+		23F0A3771E2762DC00B023E9 /* MetaProgrammingSystem.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A22F1E2762DB00B023E9 /* MetaProgrammingSystem.gitignore */; };
+		23F0A3781E2762DC00B023E9 /* Nanoc.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2301E2762DB00B023E9 /* Nanoc.gitignore */; };
+		23F0A3791E2762DC00B023E9 /* Nim.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2311E2762DB00B023E9 /* Nim.gitignore */; };
+		23F0A37A1E2762DC00B023E9 /* Node.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2321E2762DB00B023E9 /* Node.gitignore */; };
+		23F0A37B1E2762DC00B023E9 /* Objective-C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2331E2762DB00B023E9 /* Objective-C.gitignore */; };
+		23F0A37C1E2762DC00B023E9 /* OCaml.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2341E2762DB00B023E9 /* OCaml.gitignore */; };
+		23F0A37D1E2762DC00B023E9 /* Opa.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2351E2762DB00B023E9 /* Opa.gitignore */; };
+		23F0A37E1E2762DC00B023E9 /* OpenCart.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2361E2762DB00B023E9 /* OpenCart.gitignore */; };
+		23F0A37F1E2762DC00B023E9 /* OracleForms.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2371E2762DB00B023E9 /* OracleForms.gitignore */; };
+		23F0A3801E2762DC00B023E9 /* Packer.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2381E2762DB00B023E9 /* Packer.gitignore */; };
+		23F0A3811E2762DC00B023E9 /* Perl.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2391E2762DB00B023E9 /* Perl.gitignore */; };
+		23F0A3821E2762DC00B023E9 /* Phalcon.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A23A1E2762DB00B023E9 /* Phalcon.gitignore */; };
+		23F0A3831E2762DC00B023E9 /* PlayFramework.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A23B1E2762DB00B023E9 /* PlayFramework.gitignore */; };
+		23F0A3841E2762DC00B023E9 /* Plone.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A23C1E2762DB00B023E9 /* Plone.gitignore */; };
+		23F0A3851E2762DC00B023E9 /* Prestashop.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A23D1E2762DB00B023E9 /* Prestashop.gitignore */; };
+		23F0A3861E2762DC00B023E9 /* Processing.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A23E1E2762DB00B023E9 /* Processing.gitignore */; };
+		23F0A3871E2762DC00B023E9 /* Python.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A23F1E2762DB00B023E9 /* Python.gitignore */; };
+		23F0A3881E2762DC00B023E9 /* Qooxdoo.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2401E2762DB00B023E9 /* Qooxdoo.gitignore */; };
+		23F0A3891E2762DC00B023E9 /* Qt.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2411E2762DC00B023E9 /* Qt.gitignore */; };
+		23F0A38A1E2762DC00B023E9 /* R.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2421E2762DC00B023E9 /* R.gitignore */; };
+		23F0A38B1E2762DC00B023E9 /* Rails.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2431E2762DC00B023E9 /* Rails.gitignore */; };
+		23F0A38C1E2762DC00B023E9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2441E2762DC00B023E9 /* README.md */; };
+		23F0A38D1E2762DC00B023E9 /* RhodesRhomobile.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2451E2762DC00B023E9 /* RhodesRhomobile.gitignore */; };
+		23F0A38E1E2762DC00B023E9 /* ROS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2461E2762DC00B023E9 /* ROS.gitignore */; };
+		23F0A38F1E2762DC00B023E9 /* Ruby.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2471E2762DC00B023E9 /* Ruby.gitignore */; };
+		23F0A3901E2762DC00B023E9 /* Rust.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2481E2762DC00B023E9 /* Rust.gitignore */; };
+		23F0A3911E2762DC00B023E9 /* Sass.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2491E2762DC00B023E9 /* Sass.gitignore */; };
+		23F0A3921E2762DC00B023E9 /* Scala.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A24A1E2762DC00B023E9 /* Scala.gitignore */; };
+		23F0A3931E2762DC00B023E9 /* Scheme.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A24B1E2762DC00B023E9 /* Scheme.gitignore */; };
+		23F0A3941E2762DC00B023E9 /* SCons.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A24C1E2762DC00B023E9 /* SCons.gitignore */; };
+		23F0A3951E2762DC00B023E9 /* Scrivener.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A24D1E2762DC00B023E9 /* Scrivener.gitignore */; };
+		23F0A3961E2762DC00B023E9 /* Sdcc.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A24E1E2762DC00B023E9 /* Sdcc.gitignore */; };
+		23F0A3971E2762DC00B023E9 /* SeamGen.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A24F1E2762DC00B023E9 /* SeamGen.gitignore */; };
+		23F0A3981E2762DC00B023E9 /* SketchUp.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2501E2762DC00B023E9 /* SketchUp.gitignore */; };
+		23F0A3991E2762DC00B023E9 /* Smalltalk.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2511E2762DC00B023E9 /* Smalltalk.gitignore */; };
+		23F0A39A1E2762DC00B023E9 /* Stella.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2521E2762DC00B023E9 /* Stella.gitignore */; };
+		23F0A39B1E2762DC00B023E9 /* SugarCRM.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2531E2762DC00B023E9 /* SugarCRM.gitignore */; };
+		23F0A39C1E2762DC00B023E9 /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2541E2762DC00B023E9 /* Swift.gitignore */; };
+		23F0A39D1E2762DC00B023E9 /* Symfony.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2551E2762DC00B023E9 /* Symfony.gitignore */; };
+		23F0A39E1E2762DC00B023E9 /* SymphonyCMS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2561E2762DC00B023E9 /* SymphonyCMS.gitignore */; };
+		23F0A39F1E2762DC00B023E9 /* Terraform.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2571E2762DC00B023E9 /* Terraform.gitignore */; };
+		23F0A3A01E2762DC00B023E9 /* TeX.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2581E2762DC00B023E9 /* TeX.gitignore */; };
+		23F0A3A11E2762DC00B023E9 /* Textpattern.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2591E2762DC00B023E9 /* Textpattern.gitignore */; };
+		23F0A3A21E2762DC00B023E9 /* TurboGears2.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A25A1E2762DC00B023E9 /* TurboGears2.gitignore */; };
+		23F0A3A31E2762DC00B023E9 /* Typo3.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A25B1E2762DC00B023E9 /* Typo3.gitignore */; };
+		23F0A3A41E2762DC00B023E9 /* Umbraco.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A25C1E2762DC00B023E9 /* Umbraco.gitignore */; };
+		23F0A3A51E2762DC00B023E9 /* Unity.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A25D1E2762DC00B023E9 /* Unity.gitignore */; };
+		23F0A3A61E2762DC00B023E9 /* UnrealEngine.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A25E1E2762DC00B023E9 /* UnrealEngine.gitignore */; };
+		23F0A3A71E2762DC00B023E9 /* VisualStudio.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A25F1E2762DC00B023E9 /* VisualStudio.gitignore */; };
+		23F0A3A81E2762DC00B023E9 /* VVVV.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2601E2762DC00B023E9 /* VVVV.gitignore */; };
+		23F0A3A91E2762DC00B023E9 /* Waf.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2611E2762DC00B023E9 /* Waf.gitignore */; };
+		23F0A3AA1E2762DC00B023E9 /* WordPress.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2621E2762DC00B023E9 /* WordPress.gitignore */; };
+		23F0A3AB1E2762DC00B023E9 /* Xojo.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2631E2762DC00B023E9 /* Xojo.gitignore */; };
+		23F0A3AC1E2762DC00B023E9 /* Yeoman.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2641E2762DC00B023E9 /* Yeoman.gitignore */; };
+		23F0A3AD1E2762DC00B023E9 /* Yii.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2651E2762DC00B023E9 /* Yii.gitignore */; };
+		23F0A3AE1E2762DC00B023E9 /* ZendFramework.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2661E2762DC00B023E9 /* ZendFramework.gitignore */; };
+		23F0A3AF1E2762DC00B023E9 /* Zephir.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 23F0A2671E2762DC00B023E9 /* Zephir.gitignore */; };
+		23F0A3B01E2762DC00B023E9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A26C1E2762DC00B023E9 /* MASCompositeConstraint.m */; };
+		23F0A3B11E2762DC00B023E9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A26F1E2762DC00B023E9 /* MASConstraint.m */; };
+		23F0A3B21E2762DC00B023E9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2711E2762DC00B023E9 /* MASConstraintMaker.m */; };
+		23F0A3B31E2762DC00B023E9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2731E2762DC00B023E9 /* MASLayoutConstraint.m */; };
+		23F0A3B41E2762DC00B023E9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2771E2762DC00B023E9 /* MASViewAttribute.m */; };
+		23F0A3B51E2762DC00B023E9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2791E2762DC00B023E9 /* MASViewConstraint.m */; };
+		23F0A3B61E2762DC00B023E9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A27B1E2762DC00B023E9 /* NSArray+MASAdditions.m */; };
+		23F0A3B71E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A27E1E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		23F0A3B81E2762DC00B023E9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2801E2762DC00B023E9 /* View+MASAdditions.m */; };
+		23F0A3B91E2762DC00B023E9 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2831E2762DC00B023E9 /* ViewController+MASAdditions.m */; };
+		23F0A3BA1E2762DC00B023E9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2861E2762DC00B023E9 /* MBProgressHUD.m */; };
+		23F0A3BB1E2762DC00B023E9 /* ZCYClassMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2891E2762DC00B023E9 /* ZCYClassMethods.m */; };
+		23F0A3BC1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A28D1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.m */; };
+		23F0A3BD1E2762DC00B023E9 /* UIView+ZCYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A28F1E2762DC00B023E9 /* UIView+ZCYAutoLayout.m */; };
+		23F0A3BE1E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2921E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.m */; };
+		23F0A3BF1E2762DC00B023E9 /* ZCYFilterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2961E2762DC00B023E9 /* ZCYFilterMenu.m */; };
+		23F0A3C01E2762DC00B023E9 /* ZCYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2991E2762DC00B023E9 /* ZCYNavigationController.m */; };
+		23F0A3C11E2762DC00B023E9 /* QRCodeReaderSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A29C1E2762DC00B023E9 /* QRCodeReaderSupport.m */; };
+		23F0A3C21E2762DC00B023E9 /* ZCYQRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A29E1E2762DC00B023E9 /* ZCYQRCodeReader.m */; };
+		23F0A3C31E2762DC00B023E9 /* ZCySegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2A11E2762DC00B023E9 /* ZCySegmentedBar.m */; };
+		23F0A3C41E2762DC00B023E9 /* ZCYStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2A41E2762DC00B023E9 /* ZCYStarRating.m */; };
+		23F0A3C51E2762DC00B023E9 /* ZCYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2A71E2762DC00B023E9 /* ZCYTextView.m */; };
+		23F0A3C61E2762DC00B023E9 /* ZCYTopSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2AA1E2762DC00B023E9 /* ZCYTopSlider.m */; };
+		23F0A3C71E2762DC00B023E9 /* ZCYVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2AD1E2762DC00B023E9 /* ZCYVersionManager.m */; };
+		23F0A3C81E2762DC00B023E9 /* CLLocation+GPSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2B11E2762DC00B023E9 /* CLLocation+GPSDictionary.m */; };
+		23F0A3C91E2762DC00B023E9 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2B21E2762DC00B023E9 /* Foundation+Log.m */; };
+		23F0A3CA1E2762DC00B023E9 /* NSData+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2B41E2762DC00B023E9 /* NSData+JKBase64.m */; };
+		23F0A3CB1E2762DC00B023E9 /* NSDate+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2B61E2762DC00B023E9 /* NSDate+JKExtension.m */; };
+		23F0A3CC1E2762DC00B023E9 /* NSDictionary+CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2B81E2762DC00B023E9 /* NSDictionary+CLLocation.m */; };
+		23F0A3CD1E2762DC00B023E9 /* NSString+JKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2BA1E2762DC00B023E9 /* NSString+JKBase64.m */; };
+		23F0A3CE1E2762DC00B023E9 /* NSString+JKNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2BC1E2762DC00B023E9 /* NSString+JKNormalRegex.m */; };
+		23F0A3CF1E2762DC00B023E9 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2BE1E2762DC00B023E9 /* NSString+MD5.m */; };
+		23F0A3D01E2762DC00B023E9 /* NSString+RENumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2C01E2762DC00B023E9 /* NSString+RENumberFormat.m */; };
+		23F0A3D11E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2C21E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.m */; };
+		23F0A3D21E2762DC00B023E9 /* UIColor+JKHEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2C41E2762DC00B023E9 /* UIColor+JKHEX.m */; };
+		23F0A3D31E2762DC00B023E9 /* UIImage+JKAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2C61E2762DC00B023E9 /* UIImage+JKAlpha.m */; };
+		23F0A3D41E2762DC00B023E9 /* UIImage+JKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2C81E2762DC00B023E9 /* UIImage+JKColor.m */; };
+		23F0A3D51E2762DC00B023E9 /* UIImage+JKResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2CA1E2762DC00B023E9 /* UIImage+JKResize.m */; };
+		23F0A3D61E2762DC00B023E9 /* UIImage+JKRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2CC1E2762DC00B023E9 /* UIImage+JKRoundedCorner.m */; };
+		23F0A3D71E2762DC00B023E9 /* UIScrollView+leftSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2CE1E2762DC00B023E9 /* UIScrollView+leftSlide.m */; };
+		23F0A3D81E2762DC00B023E9 /* UITableViewCell+getIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2D01E2762DC00B023E9 /* UITableViewCell+getIndexPath.m */; };
+		23F0A3D91E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2D31E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.m */; };
+		23F0A3DA1E2762DC00B023E9 /* NSObject+ZCYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2D51E2762DC00B023E9 /* NSObject+ZCYKit.m */; };
+		23F0A3DB1E2762DC00B023E9 /* UIButton+ImageTitleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2D81E2762DC00B023E9 /* UIButton+ImageTitleLayout.m */; };
+		23F0A3DC1E2762DC00B023E9 /* UIButton+singleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2DA1E2762DC00B023E9 /* UIButton+singleAction.m */; };
+		23F0A3DD1E2762DC00B023E9 /* UIButton+ZCYBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2DC1E2762DC00B023E9 /* UIButton+ZCYBadge.m */; };
+		23F0A3DE1E2762DC00B023E9 /* UIDevice+ZCYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2DF1E2762DC00B023E9 /* UIDevice+ZCYKit.m */; };
+		23F0A3DF1E2762DC00B023E9 /* UIImage+ZCYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2E21E2762DC00B023E9 /* UIImage+ZCYKit.m */; };
+		23F0A3E01E2762DC00B023E9 /* UIImageView+ZCYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2E51E2762DC00B023E9 /* UIImageView+ZCYKit.m */; };
+		23F0A3E11E2762DC00B023E9 /* UIView+ZCYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2E81E2762DC00B023E9 /* UIView+ZCYKit.m */; };
+		23F0A3E21E2762DC00B023E9 /* ZCYInstanceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0A2EC1E2762DC00B023E9 /* ZCYInstanceMethods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23F0A1791E2762BC00B023E9 /* ZCYLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCYLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F0A17D1E2762BC00B023E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23F0A17F1E2762BC00B023E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23F0A1801E2762BC00B023E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23F0A1821E2762BC00B023E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23F0A1831E2762BC00B023E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23F0A1861E2762BC00B023E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23F0A1881E2762BC00B023E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F0A18B1E2762BC00B023E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23F0A18D1E2762BC00B023E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F0A1951E2762DB00B023E9 /* AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvoidCrash.h; sourceTree = "<group>"; };
+		23F0A1961E2762DB00B023E9 /* AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvoidCrash.m; sourceTree = "<group>"; };
+		23F0A1971E2762DB00B023E9 /* NSArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A1981E2762DB00B023E9 /* NSArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A1991E2762DB00B023E9 /* NSAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A19A1E2762DB00B023E9 /* NSAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A19B1E2762DB00B023E9 /* NSDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A19C1E2762DB00B023E9 /* NSDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A19D1E2762DB00B023E9 /* NSMutableArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A19E1E2762DB00B023E9 /* NSMutableArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A19F1E2762DB00B023E9 /* NSMutableAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A1A01E2762DB00B023E9 /* NSMutableAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A1A11E2762DB00B023E9 /* NSMutableDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A1A21E2762DB00B023E9 /* NSMutableDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A1A31E2762DB00B023E9 /* NSMutableString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A1A41E2762DB00B023E9 /* NSMutableString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A1A51E2762DB00B023E9 /* NSObject+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A1A61E2762DB00B023E9 /* NSObject+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A1A71E2762DB00B023E9 /* NSString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AvoidCrash.h"; sourceTree = "<group>"; };
+		23F0A1A81E2762DB00B023E9 /* NSString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AvoidCrash.m"; sourceTree = "<group>"; };
+		23F0A1AA1E2762DB00B023E9 /* DefaultZCY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultZCY.h; sourceTree = "<group>"; };
+		23F0A1AC1E2762DB00B023E9 /* ZCYAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYAnimation.h; sourceTree = "<group>"; };
+		23F0A1AD1E2762DB00B023E9 /* ZCYAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYAnimation.m; sourceTree = "<group>"; };
+		23F0A1B01E2762DB00B023E9 /* PULL_REQUEST_TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PULL_REQUEST_TEMPLATE.md; sourceTree = "<group>"; };
+		23F0A1B11E2762DB00B023E9 /* Actionscript.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Actionscript.gitignore; sourceTree = "<group>"; };
+		23F0A1B21E2762DB00B023E9 /* Ada.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ada.gitignore; sourceTree = "<group>"; };
+		23F0A1B31E2762DB00B023E9 /* Agda.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Agda.gitignore; sourceTree = "<group>"; };
+		23F0A1B41E2762DB00B023E9 /* Android.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.gitignore; sourceTree = "<group>"; };
+		23F0A1B51E2762DB00B023E9 /* AppceleratorTitanium.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppceleratorTitanium.gitignore; sourceTree = "<group>"; };
+		23F0A1B61E2762DB00B023E9 /* AppEngine.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppEngine.gitignore; sourceTree = "<group>"; };
+		23F0A1B71E2762DB00B023E9 /* ArchLinuxPackages.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArchLinuxPackages.gitignore; sourceTree = "<group>"; };
+		23F0A1B81E2762DB00B023E9 /* Autotools.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Autotools.gitignore; sourceTree = "<group>"; };
+		23F0A1B91E2762DB00B023E9 /* C++.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "C++.gitignore"; sourceTree = "<group>"; };
+		23F0A1BA1E2762DB00B023E9 /* C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = C.gitignore; sourceTree = "<group>"; };
+		23F0A1BB1E2762DB00B023E9 /* CakePHP.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CakePHP.gitignore; sourceTree = "<group>"; };
+		23F0A1BC1E2762DB00B023E9 /* CFWheels.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CFWheels.gitignore; sourceTree = "<group>"; };
+		23F0A1BD1E2762DB00B023E9 /* ChefCookbook.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChefCookbook.gitignore; sourceTree = "<group>"; };
+		23F0A1BE1E2762DB00B023E9 /* Clojure.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Clojure.gitignore; sourceTree = "<group>"; };
+		23F0A1BF1E2762DB00B023E9 /* CMake.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMake.gitignore; sourceTree = "<group>"; };
+		23F0A1C01E2762DB00B023E9 /* CodeIgniter.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CodeIgniter.gitignore; sourceTree = "<group>"; };
+		23F0A1C11E2762DB00B023E9 /* CommonLisp.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonLisp.gitignore; sourceTree = "<group>"; };
+		23F0A1C21E2762DB00B023E9 /* Composer.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Composer.gitignore; sourceTree = "<group>"; };
+		23F0A1C31E2762DB00B023E9 /* Concrete5.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Concrete5.gitignore; sourceTree = "<group>"; };
+		23F0A1C41E2762DB00B023E9 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		23F0A1C51E2762DB00B023E9 /* Coq.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Coq.gitignore; sourceTree = "<group>"; };
+		23F0A1C61E2762DB00B023E9 /* CraftCMS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CraftCMS.gitignore; sourceTree = "<group>"; };
+		23F0A1C71E2762DB00B023E9 /* CUDA.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CUDA.gitignore; sourceTree = "<group>"; };
+		23F0A1C81E2762DB00B023E9 /* D.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = D.gitignore; sourceTree = "<group>"; };
+		23F0A1C91E2762DB00B023E9 /* Dart.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dart.gitignore; sourceTree = "<group>"; };
+		23F0A1CA1E2762DB00B023E9 /* Delphi.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Delphi.gitignore; sourceTree = "<group>"; };
+		23F0A1CB1E2762DB00B023E9 /* DM.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DM.gitignore; sourceTree = "<group>"; };
+		23F0A1CC1E2762DB00B023E9 /* Drupal.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Drupal.gitignore; sourceTree = "<group>"; };
+		23F0A1CD1E2762DB00B023E9 /* Eagle.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eagle.gitignore; sourceTree = "<group>"; };
+		23F0A1CE1E2762DB00B023E9 /* Elisp.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Elisp.gitignore; sourceTree = "<group>"; };
+		23F0A1CF1E2762DB00B023E9 /* Elixir.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Elixir.gitignore; sourceTree = "<group>"; };
+		23F0A1D01E2762DB00B023E9 /* Elm.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Elm.gitignore; sourceTree = "<group>"; };
+		23F0A1D11E2762DB00B023E9 /* EPiServer.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EPiServer.gitignore; sourceTree = "<group>"; };
+		23F0A1D21E2762DB00B023E9 /* Erlang.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Erlang.gitignore; sourceTree = "<group>"; };
+		23F0A1D31E2762DB00B023E9 /* ExpressionEngine.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExpressionEngine.gitignore; sourceTree = "<group>"; };
+		23F0A1D41E2762DB00B023E9 /* ExtJs.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExtJs.gitignore; sourceTree = "<group>"; };
+		23F0A1D51E2762DB00B023E9 /* Fancy.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fancy.gitignore; sourceTree = "<group>"; };
+		23F0A1D61E2762DB00B023E9 /* Finale.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Finale.gitignore; sourceTree = "<group>"; };
+		23F0A1D71E2762DB00B023E9 /* ForceDotCom.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ForceDotCom.gitignore; sourceTree = "<group>"; };
+		23F0A1D81E2762DB00B023E9 /* Fortran.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fortran.gitignore; sourceTree = "<group>"; };
+		23F0A1D91E2762DB00B023E9 /* FuelPHP.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FuelPHP.gitignore; sourceTree = "<group>"; };
+		23F0A1DA1E2762DB00B023E9 /* Gcov.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gcov.gitignore; sourceTree = "<group>"; };
+		23F0A1DB1E2762DB00B023E9 /* GitBook.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GitBook.gitignore; sourceTree = "<group>"; };
+		23F0A1DD1E2762DB00B023E9 /* Anjuta.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Anjuta.gitignore; sourceTree = "<group>"; };
+		23F0A1DE1E2762DB00B023E9 /* Ansible.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ansible.gitignore; sourceTree = "<group>"; };
+		23F0A1DF1E2762DB00B023E9 /* Archives.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Archives.gitignore; sourceTree = "<group>"; };
+		23F0A1E01E2762DB00B023E9 /* Bazaar.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bazaar.gitignore; sourceTree = "<group>"; };
+		23F0A1E11E2762DB00B023E9 /* BricxCC.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BricxCC.gitignore; sourceTree = "<group>"; };
+		23F0A1E21E2762DB00B023E9 /* Calabash.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Calabash.gitignore; sourceTree = "<group>"; };
+		23F0A1E31E2762DB00B023E9 /* Cloud9.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cloud9.gitignore; sourceTree = "<group>"; };
+		23F0A1E41E2762DB00B023E9 /* CodeKit.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CodeKit.gitignore; sourceTree = "<group>"; };
+		23F0A1E51E2762DB00B023E9 /* CVS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CVS.gitignore; sourceTree = "<group>"; };
+		23F0A1E61E2762DB00B023E9 /* DartEditor.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DartEditor.gitignore; sourceTree = "<group>"; };
+		23F0A1E71E2762DB00B023E9 /* Dreamweaver.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dreamweaver.gitignore; sourceTree = "<group>"; };
+		23F0A1E81E2762DB00B023E9 /* Dropbox.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dropbox.gitignore; sourceTree = "<group>"; };
+		23F0A1E91E2762DB00B023E9 /* Eclipse.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eclipse.gitignore; sourceTree = "<group>"; };
+		23F0A1EA1E2762DB00B023E9 /* EiffelStudio.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EiffelStudio.gitignore; sourceTree = "<group>"; };
+		23F0A1EB1E2762DB00B023E9 /* Emacs.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Emacs.gitignore; sourceTree = "<group>"; };
+		23F0A1EC1E2762DB00B023E9 /* Ensime.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ensime.gitignore; sourceTree = "<group>"; };
+		23F0A1ED1E2762DB00B023E9 /* Espresso.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Espresso.gitignore; sourceTree = "<group>"; };
+		23F0A1EE1E2762DB00B023E9 /* FlexBuilder.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlexBuilder.gitignore; sourceTree = "<group>"; };
+		23F0A1EF1E2762DB00B023E9 /* GPG.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GPG.gitignore; sourceTree = "<group>"; };
+		23F0A1F01E2762DB00B023E9 /* JDeveloper.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JDeveloper.gitignore; sourceTree = "<group>"; };
+		23F0A1F11E2762DB00B023E9 /* JetBrains.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JetBrains.gitignore; sourceTree = "<group>"; };
+		23F0A1F21E2762DB00B023E9 /* Kate.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kate.gitignore; sourceTree = "<group>"; };
+		23F0A1F31E2762DB00B023E9 /* KDevelop4.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KDevelop4.gitignore; sourceTree = "<group>"; };
+		23F0A1F41E2762DB00B023E9 /* Lazarus.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lazarus.gitignore; sourceTree = "<group>"; };
+		23F0A1F51E2762DB00B023E9 /* LibreOffice.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LibreOffice.gitignore; sourceTree = "<group>"; };
+		23F0A1F61E2762DB00B023E9 /* Linux.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Linux.gitignore; sourceTree = "<group>"; };
+		23F0A1F71E2762DB00B023E9 /* LyX.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LyX.gitignore; sourceTree = "<group>"; };
+		23F0A1F81E2762DB00B023E9 /* macOS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = macOS.gitignore; sourceTree = "<group>"; };
+		23F0A1F91E2762DB00B023E9 /* Matlab.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matlab.gitignore; sourceTree = "<group>"; };
+		23F0A1FA1E2762DB00B023E9 /* Mercurial.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mercurial.gitignore; sourceTree = "<group>"; };
+		23F0A1FB1E2762DB00B023E9 /* MicrosoftOffice.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MicrosoftOffice.gitignore; sourceTree = "<group>"; };
+		23F0A1FC1E2762DB00B023E9 /* ModelSim.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelSim.gitignore; sourceTree = "<group>"; };
+		23F0A1FD1E2762DB00B023E9 /* Momentics.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Momentics.gitignore; sourceTree = "<group>"; };
+		23F0A1FE1E2762DB00B023E9 /* MonoDevelop.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MonoDevelop.gitignore; sourceTree = "<group>"; };
+		23F0A1FF1E2762DB00B023E9 /* NetBeans.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NetBeans.gitignore; sourceTree = "<group>"; };
+		23F0A2001E2762DB00B023E9 /* Ninja.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ninja.gitignore; sourceTree = "<group>"; };
+		23F0A2011E2762DB00B023E9 /* NotepadPP.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NotepadPP.gitignore; sourceTree = "<group>"; };
+		23F0A2021E2762DB00B023E9 /* Otto.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Otto.gitignore; sourceTree = "<group>"; };
+		23F0A2031E2762DB00B023E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		23F0A2041E2762DB00B023E9 /* Redcar.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Redcar.gitignore; sourceTree = "<group>"; };
+		23F0A2051E2762DB00B023E9 /* Redis.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Redis.gitignore; sourceTree = "<group>"; };
+		23F0A2061E2762DB00B023E9 /* SBT.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBT.gitignore; sourceTree = "<group>"; };
+		23F0A2071E2762DB00B023E9 /* SlickEdit.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SlickEdit.gitignore; sourceTree = "<group>"; };
+		23F0A2081E2762DB00B023E9 /* SublimeText.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SublimeText.gitignore; sourceTree = "<group>"; };
+		23F0A2091E2762DB00B023E9 /* SVN.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVN.gitignore; sourceTree = "<group>"; };
+		23F0A20A1E2762DB00B023E9 /* SynopsysVCS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SynopsysVCS.gitignore; sourceTree = "<group>"; };
+		23F0A20B1E2762DB00B023E9 /* Tags.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tags.gitignore; sourceTree = "<group>"; };
+		23F0A20C1E2762DB00B023E9 /* TextMate.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextMate.gitignore; sourceTree = "<group>"; };
+		23F0A20D1E2762DB00B023E9 /* TortoiseGit.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TortoiseGit.gitignore; sourceTree = "<group>"; };
+		23F0A20E1E2762DB00B023E9 /* Vagrant.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vagrant.gitignore; sourceTree = "<group>"; };
+		23F0A20F1E2762DB00B023E9 /* Vim.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vim.gitignore; sourceTree = "<group>"; };
+		23F0A2101E2762DB00B023E9 /* VirtualEnv.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VirtualEnv.gitignore; sourceTree = "<group>"; };
+		23F0A2111E2762DB00B023E9 /* VisualStudioCode.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VisualStudioCode.gitignore; sourceTree = "<group>"; };
+		23F0A2121E2762DB00B023E9 /* WebMethods.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebMethods.gitignore; sourceTree = "<group>"; };
+		23F0A2131E2762DB00B023E9 /* Windows.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Windows.gitignore; sourceTree = "<group>"; };
+		23F0A2141E2762DB00B023E9 /* Xcode.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Xcode.gitignore; sourceTree = "<group>"; };
+		23F0A2151E2762DB00B023E9 /* XilinxISE.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XilinxISE.gitignore; sourceTree = "<group>"; };
+		23F0A2161E2762DB00B023E9 /* Go.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Go.gitignore; sourceTree = "<group>"; };
+		23F0A2171E2762DB00B023E9 /* Gradle.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gradle.gitignore; sourceTree = "<group>"; };
+		23F0A2181E2762DB00B023E9 /* Grails.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Grails.gitignore; sourceTree = "<group>"; };
+		23F0A2191E2762DB00B023E9 /* GWT.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GWT.gitignore; sourceTree = "<group>"; };
+		23F0A21A1E2762DB00B023E9 /* Haskell.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Haskell.gitignore; sourceTree = "<group>"; };
+		23F0A21B1E2762DB00B023E9 /* Idris.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Idris.gitignore; sourceTree = "<group>"; };
+		23F0A21C1E2762DB00B023E9 /* IGORPro.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IGORPro.gitignore; sourceTree = "<group>"; };
+		23F0A21D1E2762DB00B023E9 /* Java.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Java.gitignore; sourceTree = "<group>"; };
+		23F0A21E1E2762DB00B023E9 /* Jboss.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jboss.gitignore; sourceTree = "<group>"; };
+		23F0A21F1E2762DB00B023E9 /* Jekyll.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jekyll.gitignore; sourceTree = "<group>"; };
+		23F0A2201E2762DB00B023E9 /* Joomla.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Joomla.gitignore; sourceTree = "<group>"; };
+		23F0A2211E2762DB00B023E9 /* Julia.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Julia.gitignore; sourceTree = "<group>"; };
+		23F0A2221E2762DB00B023E9 /* KiCad.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KiCad.gitignore; sourceTree = "<group>"; };
+		23F0A2231E2762DB00B023E9 /* Kohana.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kohana.gitignore; sourceTree = "<group>"; };
+		23F0A2241E2762DB00B023E9 /* LabVIEW.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LabVIEW.gitignore; sourceTree = "<group>"; };
+		23F0A2251E2762DB00B023E9 /* Laravel.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Laravel.gitignore; sourceTree = "<group>"; };
+		23F0A2261E2762DB00B023E9 /* Leiningen.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Leiningen.gitignore; sourceTree = "<group>"; };
+		23F0A2271E2762DB00B023E9 /* LemonStand.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LemonStand.gitignore; sourceTree = "<group>"; };
+		23F0A2281E2762DB00B023E9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		23F0A2291E2762DB00B023E9 /* Lilypond.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lilypond.gitignore; sourceTree = "<group>"; };
+		23F0A22A1E2762DB00B023E9 /* Lithium.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lithium.gitignore; sourceTree = "<group>"; };
+		23F0A22B1E2762DB00B023E9 /* Lua.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lua.gitignore; sourceTree = "<group>"; };
+		23F0A22C1E2762DB00B023E9 /* Magento.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Magento.gitignore; sourceTree = "<group>"; };
+		23F0A22D1E2762DB00B023E9 /* Maven.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Maven.gitignore; sourceTree = "<group>"; };
+		23F0A22E1E2762DB00B023E9 /* Mercury.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mercury.gitignore; sourceTree = "<group>"; };
+		23F0A22F1E2762DB00B023E9 /* MetaProgrammingSystem.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaProgrammingSystem.gitignore; sourceTree = "<group>"; };
+		23F0A2301E2762DB00B023E9 /* Nanoc.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nanoc.gitignore; sourceTree = "<group>"; };
+		23F0A2311E2762DB00B023E9 /* Nim.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nim.gitignore; sourceTree = "<group>"; };
+		23F0A2321E2762DB00B023E9 /* Node.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Node.gitignore; sourceTree = "<group>"; };
+		23F0A2331E2762DB00B023E9 /* Objective-C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Objective-C.gitignore"; sourceTree = "<group>"; };
+		23F0A2341E2762DB00B023E9 /* OCaml.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OCaml.gitignore; sourceTree = "<group>"; };
+		23F0A2351E2762DB00B023E9 /* Opa.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Opa.gitignore; sourceTree = "<group>"; };
+		23F0A2361E2762DB00B023E9 /* OpenCart.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenCart.gitignore; sourceTree = "<group>"; };
+		23F0A2371E2762DB00B023E9 /* OracleForms.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OracleForms.gitignore; sourceTree = "<group>"; };
+		23F0A2381E2762DB00B023E9 /* Packer.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Packer.gitignore; sourceTree = "<group>"; };
+		23F0A2391E2762DB00B023E9 /* Perl.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Perl.gitignore; sourceTree = "<group>"; };
+		23F0A23A1E2762DB00B023E9 /* Phalcon.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Phalcon.gitignore; sourceTree = "<group>"; };
+		23F0A23B1E2762DB00B023E9 /* PlayFramework.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PlayFramework.gitignore; sourceTree = "<group>"; };
+		23F0A23C1E2762DB00B023E9 /* Plone.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Plone.gitignore; sourceTree = "<group>"; };
+		23F0A23D1E2762DB00B023E9 /* Prestashop.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prestashop.gitignore; sourceTree = "<group>"; };
+		23F0A23E1E2762DB00B023E9 /* Processing.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Processing.gitignore; sourceTree = "<group>"; };
+		23F0A23F1E2762DB00B023E9 /* Python.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Python.gitignore; sourceTree = "<group>"; };
+		23F0A2401E2762DB00B023E9 /* Qooxdoo.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Qooxdoo.gitignore; sourceTree = "<group>"; };
+		23F0A2411E2762DC00B023E9 /* Qt.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Qt.gitignore; sourceTree = "<group>"; };
+		23F0A2421E2762DC00B023E9 /* R.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = R.gitignore; sourceTree = "<group>"; };
+		23F0A2431E2762DC00B023E9 /* Rails.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rails.gitignore; sourceTree = "<group>"; };
+		23F0A2441E2762DC00B023E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		23F0A2451E2762DC00B023E9 /* RhodesRhomobile.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RhodesRhomobile.gitignore; sourceTree = "<group>"; };
+		23F0A2461E2762DC00B023E9 /* ROS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ROS.gitignore; sourceTree = "<group>"; };
+		23F0A2471E2762DC00B023E9 /* Ruby.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ruby.gitignore; sourceTree = "<group>"; };
+		23F0A2481E2762DC00B023E9 /* Rust.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rust.gitignore; sourceTree = "<group>"; };
+		23F0A2491E2762DC00B023E9 /* Sass.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sass.gitignore; sourceTree = "<group>"; };
+		23F0A24A1E2762DC00B023E9 /* Scala.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scala.gitignore; sourceTree = "<group>"; };
+		23F0A24B1E2762DC00B023E9 /* Scheme.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scheme.gitignore; sourceTree = "<group>"; };
+		23F0A24C1E2762DC00B023E9 /* SCons.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SCons.gitignore; sourceTree = "<group>"; };
+		23F0A24D1E2762DC00B023E9 /* Scrivener.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scrivener.gitignore; sourceTree = "<group>"; };
+		23F0A24E1E2762DC00B023E9 /* Sdcc.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sdcc.gitignore; sourceTree = "<group>"; };
+		23F0A24F1E2762DC00B023E9 /* SeamGen.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SeamGen.gitignore; sourceTree = "<group>"; };
+		23F0A2501E2762DC00B023E9 /* SketchUp.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SketchUp.gitignore; sourceTree = "<group>"; };
+		23F0A2511E2762DC00B023E9 /* Smalltalk.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Smalltalk.gitignore; sourceTree = "<group>"; };
+		23F0A2521E2762DC00B023E9 /* Stella.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stella.gitignore; sourceTree = "<group>"; };
+		23F0A2531E2762DC00B023E9 /* SugarCRM.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SugarCRM.gitignore; sourceTree = "<group>"; };
+		23F0A2541E2762DC00B023E9 /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
+		23F0A2551E2762DC00B023E9 /* Symfony.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Symfony.gitignore; sourceTree = "<group>"; };
+		23F0A2561E2762DC00B023E9 /* SymphonyCMS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SymphonyCMS.gitignore; sourceTree = "<group>"; };
+		23F0A2571E2762DC00B023E9 /* Terraform.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Terraform.gitignore; sourceTree = "<group>"; };
+		23F0A2581E2762DC00B023E9 /* TeX.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TeX.gitignore; sourceTree = "<group>"; };
+		23F0A2591E2762DC00B023E9 /* Textpattern.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Textpattern.gitignore; sourceTree = "<group>"; };
+		23F0A25A1E2762DC00B023E9 /* TurboGears2.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TurboGears2.gitignore; sourceTree = "<group>"; };
+		23F0A25B1E2762DC00B023E9 /* Typo3.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Typo3.gitignore; sourceTree = "<group>"; };
+		23F0A25C1E2762DC00B023E9 /* Umbraco.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Umbraco.gitignore; sourceTree = "<group>"; };
+		23F0A25D1E2762DC00B023E9 /* Unity.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Unity.gitignore; sourceTree = "<group>"; };
+		23F0A25E1E2762DC00B023E9 /* UnrealEngine.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UnrealEngine.gitignore; sourceTree = "<group>"; };
+		23F0A25F1E2762DC00B023E9 /* VisualStudio.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VisualStudio.gitignore; sourceTree = "<group>"; };
+		23F0A2601E2762DC00B023E9 /* VVVV.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VVVV.gitignore; sourceTree = "<group>"; };
+		23F0A2611E2762DC00B023E9 /* Waf.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Waf.gitignore; sourceTree = "<group>"; };
+		23F0A2621E2762DC00B023E9 /* WordPress.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordPress.gitignore; sourceTree = "<group>"; };
+		23F0A2631E2762DC00B023E9 /* Xojo.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Xojo.gitignore; sourceTree = "<group>"; };
+		23F0A2641E2762DC00B023E9 /* Yeoman.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yeoman.gitignore; sourceTree = "<group>"; };
+		23F0A2651E2762DC00B023E9 /* Yii.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yii.gitignore; sourceTree = "<group>"; };
+		23F0A2661E2762DC00B023E9 /* ZendFramework.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZendFramework.gitignore; sourceTree = "<group>"; };
+		23F0A2671E2762DC00B023E9 /* Zephir.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zephir.gitignore; sourceTree = "<group>"; };
+		23F0A26B1E2762DC00B023E9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		23F0A26C1E2762DC00B023E9 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		23F0A26D1E2762DC00B023E9 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		23F0A26E1E2762DC00B023E9 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		23F0A26F1E2762DC00B023E9 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		23F0A2701E2762DC00B023E9 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		23F0A2711E2762DC00B023E9 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		23F0A2721E2762DC00B023E9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		23F0A2731E2762DC00B023E9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		23F0A2741E2762DC00B023E9 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		23F0A2751E2762DC00B023E9 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		23F0A2761E2762DC00B023E9 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		23F0A2771E2762DC00B023E9 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		23F0A2781E2762DC00B023E9 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		23F0A2791E2762DC00B023E9 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		23F0A27A1E2762DC00B023E9 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		23F0A27B1E2762DC00B023E9 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		23F0A27C1E2762DC00B023E9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		23F0A27D1E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		23F0A27E1E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		23F0A27F1E2762DC00B023E9 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		23F0A2801E2762DC00B023E9 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		23F0A2811E2762DC00B023E9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		23F0A2821E2762DC00B023E9 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		23F0A2831E2762DC00B023E9 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		23F0A2851E2762DC00B023E9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		23F0A2861E2762DC00B023E9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		23F0A2881E2762DC00B023E9 /* ZCYClassMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYClassMethods.h; sourceTree = "<group>"; };
+		23F0A2891E2762DC00B023E9 /* ZCYClassMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYClassMethods.m; sourceTree = "<group>"; };
+		23F0A28C1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZCYAutoLayoutCellHeight.h"; sourceTree = "<group>"; };
+		23F0A28D1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZCYAutoLayoutCellHeight.m"; sourceTree = "<group>"; };
+		23F0A28E1E2762DC00B023E9 /* UIView+ZCYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCYAutoLayout.h"; sourceTree = "<group>"; };
+		23F0A28F1E2762DC00B023E9 /* UIView+ZCYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCYAutoLayout.m"; sourceTree = "<group>"; };
+		23F0A2911E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		23F0A2921E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		23F0A2931E2762DC00B023E9 /* ZCYComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYComponents.h; sourceTree = "<group>"; };
+		23F0A2951E2762DC00B023E9 /* ZCYFilterMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYFilterMenu.h; sourceTree = "<group>"; };
+		23F0A2961E2762DC00B023E9 /* ZCYFilterMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYFilterMenu.m; sourceTree = "<group>"; };
+		23F0A2981E2762DC00B023E9 /* ZCYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYNavigationController.h; sourceTree = "<group>"; };
+		23F0A2991E2762DC00B023E9 /* ZCYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYNavigationController.m; sourceTree = "<group>"; };
+		23F0A29B1E2762DC00B023E9 /* QRCodeReaderSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderSupport.h; sourceTree = "<group>"; };
+		23F0A29C1E2762DC00B023E9 /* QRCodeReaderSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderSupport.m; sourceTree = "<group>"; };
+		23F0A29D1E2762DC00B023E9 /* ZCYQRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYQRCodeReader.h; sourceTree = "<group>"; };
+		23F0A29E1E2762DC00B023E9 /* ZCYQRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYQRCodeReader.m; sourceTree = "<group>"; };
+		23F0A2A01E2762DC00B023E9 /* ZCYSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYSegmentedBar.h; sourceTree = "<group>"; };
+		23F0A2A11E2762DC00B023E9 /* ZCySegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCySegmentedBar.m; sourceTree = "<group>"; };
+		23F0A2A31E2762DC00B023E9 /* ZCYStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYStarRating.h; sourceTree = "<group>"; };
+		23F0A2A41E2762DC00B023E9 /* ZCYStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYStarRating.m; sourceTree = "<group>"; };
+		23F0A2A61E2762DC00B023E9 /* ZCYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYTextView.h; sourceTree = "<group>"; };
+		23F0A2A71E2762DC00B023E9 /* ZCYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYTextView.m; sourceTree = "<group>"; };
+		23F0A2A91E2762DC00B023E9 /* ZCYTopSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYTopSlider.h; sourceTree = "<group>"; };
+		23F0A2AA1E2762DC00B023E9 /* ZCYTopSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYTopSlider.m; sourceTree = "<group>"; };
+		23F0A2AC1E2762DC00B023E9 /* ZCYVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYVersionManager.h; sourceTree = "<group>"; };
+		23F0A2AD1E2762DC00B023E9 /* ZCYVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYVersionManager.m; sourceTree = "<group>"; };
+		23F0A2B01E2762DC00B023E9 /* CLLocation+GPSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+GPSDictionary.h"; sourceTree = "<group>"; };
+		23F0A2B11E2762DC00B023E9 /* CLLocation+GPSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+GPSDictionary.m"; sourceTree = "<group>"; };
+		23F0A2B21E2762DC00B023E9 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		23F0A2B31E2762DC00B023E9 /* NSData+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JKBase64.h"; sourceTree = "<group>"; };
+		23F0A2B41E2762DC00B023E9 /* NSData+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JKBase64.m"; sourceTree = "<group>"; };
+		23F0A2B51E2762DC00B023E9 /* NSDate+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKExtension.h"; sourceTree = "<group>"; };
+		23F0A2B61E2762DC00B023E9 /* NSDate+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKExtension.m"; sourceTree = "<group>"; };
+		23F0A2B71E2762DC00B023E9 /* NSDictionary+CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CLLocation.h"; sourceTree = "<group>"; };
+		23F0A2B81E2762DC00B023E9 /* NSDictionary+CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CLLocation.m"; sourceTree = "<group>"; };
+		23F0A2B91E2762DC00B023E9 /* NSString+JKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKBase64.h"; sourceTree = "<group>"; };
+		23F0A2BA1E2762DC00B023E9 /* NSString+JKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKBase64.m"; sourceTree = "<group>"; };
+		23F0A2BB1E2762DC00B023E9 /* NSString+JKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKNormalRegex.h"; sourceTree = "<group>"; };
+		23F0A2BC1E2762DC00B023E9 /* NSString+JKNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKNormalRegex.m"; sourceTree = "<group>"; };
+		23F0A2BD1E2762DC00B023E9 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		23F0A2BE1E2762DC00B023E9 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		23F0A2BF1E2762DC00B023E9 /* NSString+RENumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RENumberFormat.h"; sourceTree = "<group>"; };
+		23F0A2C01E2762DC00B023E9 /* NSString+RENumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RENumberFormat.m"; sourceTree = "<group>"; };
+		23F0A2C11E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+getMyIndexPath.h"; sourceTree = "<group>"; };
+		23F0A2C21E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+getMyIndexPath.m"; sourceTree = "<group>"; };
+		23F0A2C31E2762DC00B023E9 /* UIColor+JKHEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JKHEX.h"; sourceTree = "<group>"; };
+		23F0A2C41E2762DC00B023E9 /* UIColor+JKHEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JKHEX.m"; sourceTree = "<group>"; };
+		23F0A2C51E2762DC00B023E9 /* UIImage+JKAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKAlpha.h"; sourceTree = "<group>"; };
+		23F0A2C61E2762DC00B023E9 /* UIImage+JKAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKAlpha.m"; sourceTree = "<group>"; };
+		23F0A2C71E2762DC00B023E9 /* UIImage+JKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKColor.h"; sourceTree = "<group>"; };
+		23F0A2C81E2762DC00B023E9 /* UIImage+JKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKColor.m"; sourceTree = "<group>"; };
+		23F0A2C91E2762DC00B023E9 /* UIImage+JKResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKResize.h"; sourceTree = "<group>"; };
+		23F0A2CA1E2762DC00B023E9 /* UIImage+JKResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKResize.m"; sourceTree = "<group>"; };
+		23F0A2CB1E2762DC00B023E9 /* UIImage+JKRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKRoundedCorner.h"; sourceTree = "<group>"; };
+		23F0A2CC1E2762DC00B023E9 /* UIImage+JKRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKRoundedCorner.m"; sourceTree = "<group>"; };
+		23F0A2CD1E2762DC00B023E9 /* UIScrollView+leftSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+leftSlide.h"; sourceTree = "<group>"; };
+		23F0A2CE1E2762DC00B023E9 /* UIScrollView+leftSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+leftSlide.m"; sourceTree = "<group>"; };
+		23F0A2CF1E2762DC00B023E9 /* UITableViewCell+getIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+getIndexPath.h"; sourceTree = "<group>"; };
+		23F0A2D01E2762DC00B023E9 /* UITableViewCell+getIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+getIndexPath.m"; sourceTree = "<group>"; };
+		23F0A2D21E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GetCurrentScreenViewController.h"; sourceTree = "<group>"; };
+		23F0A2D31E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GetCurrentScreenViewController.m"; sourceTree = "<group>"; };
+		23F0A2D41E2762DC00B023E9 /* NSObject+ZCYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZCYKit.h"; sourceTree = "<group>"; };
+		23F0A2D51E2762DC00B023E9 /* NSObject+ZCYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZCYKit.m"; sourceTree = "<group>"; };
+		23F0A2D71E2762DC00B023E9 /* UIButton+ImageTitleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleLayout.h"; sourceTree = "<group>"; };
+		23F0A2D81E2762DC00B023E9 /* UIButton+ImageTitleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleLayout.m"; sourceTree = "<group>"; };
+		23F0A2D91E2762DC00B023E9 /* UIButton+singleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+singleAction.h"; sourceTree = "<group>"; };
+		23F0A2DA1E2762DC00B023E9 /* UIButton+singleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+singleAction.m"; sourceTree = "<group>"; };
+		23F0A2DB1E2762DC00B023E9 /* UIButton+ZCYBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZCYBadge.h"; sourceTree = "<group>"; };
+		23F0A2DC1E2762DC00B023E9 /* UIButton+ZCYBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZCYBadge.m"; sourceTree = "<group>"; };
+		23F0A2DE1E2762DC00B023E9 /* UIDevice+ZCYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ZCYKit.h"; sourceTree = "<group>"; };
+		23F0A2DF1E2762DC00B023E9 /* UIDevice+ZCYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ZCYKit.m"; sourceTree = "<group>"; };
+		23F0A2E11E2762DC00B023E9 /* UIImage+ZCYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZCYKit.h"; sourceTree = "<group>"; };
+		23F0A2E21E2762DC00B023E9 /* UIImage+ZCYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZCYKit.m"; sourceTree = "<group>"; };
+		23F0A2E41E2762DC00B023E9 /* UIImageView+ZCYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZCYKit.h"; sourceTree = "<group>"; };
+		23F0A2E51E2762DC00B023E9 /* UIImageView+ZCYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZCYKit.m"; sourceTree = "<group>"; };
+		23F0A2E71E2762DC00B023E9 /* UIView+ZCYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCYKit.h"; sourceTree = "<group>"; };
+		23F0A2E81E2762DC00B023E9 /* UIView+ZCYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCYKit.m"; sourceTree = "<group>"; };
+		23F0A2E91E2762DC00B023E9 /* ZCYExtensionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYExtensionKit.h; sourceTree = "<group>"; };
+		23F0A2EB1E2762DC00B023E9 /* ZCYInstanceMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYInstanceMethods.h; sourceTree = "<group>"; };
+		23F0A2EC1E2762DC00B023E9 /* ZCYInstanceMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCYInstanceMethods.m; sourceTree = "<group>"; };
+		23F0A2ED1E2762DC00B023E9 /* ZCYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCYKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F0A1761E2762BC00B023E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F0A1701E2762BC00B023E9 = {
+			isa = PBXGroup;
+			children = (
+				23F0A1931E2762DB00B023E9 /* Lib */,
+				23F0A17B1E2762BC00B023E9 /* ZCYLibrary */,
+				23F0A17A1E2762BC00B023E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23F0A17A1E2762BC00B023E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1791E2762BC00B023E9 /* ZCYLibrary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F0A17B1E2762BC00B023E9 /* ZCYLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A17F1E2762BC00B023E9 /* AppDelegate.h */,
+				23F0A1801E2762BC00B023E9 /* AppDelegate.m */,
+				23F0A1821E2762BC00B023E9 /* ViewController.h */,
+				23F0A1831E2762BC00B023E9 /* ViewController.m */,
+				23F0A1851E2762BC00B023E9 /* Main.storyboard */,
+				23F0A1881E2762BC00B023E9 /* Assets.xcassets */,
+				23F0A18A1E2762BC00B023E9 /* LaunchScreen.storyboard */,
+				23F0A18D1E2762BC00B023E9 /* Info.plist */,
+				23F0A17C1E2762BC00B023E9 /* Supporting Files */,
+			);
+			path = ZCYLibrary;
+			sourceTree = "<group>";
+		};
+		23F0A17C1E2762BC00B023E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A17D1E2762BC00B023E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23F0A1931E2762DB00B023E9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1941E2762DB00B023E9 /* AvoidCrash */,
+				23F0A1A91E2762DB00B023E9 /* DefaultZCY */,
+				23F0A1AE1E2762DB00B023E9 /* gitignore-master */,
+				23F0A2681E2762DC00B023E9 /* ThreeTool */,
+				23F0A2871E2762DC00B023E9 /* ZCYClassMethods */,
+				23F0A28A1E2762DC00B023E9 /* ZCYComponents */,
+				23F0A2AE1E2762DC00B023E9 /* ZCYExtensionKit */,
+				23F0A2EA1E2762DC00B023E9 /* ZCYInstanceMethods */,
+				23F0A2ED1E2762DC00B023E9 /* ZCYKit.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		23F0A1941E2762DB00B023E9 /* AvoidCrash */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1951E2762DB00B023E9 /* AvoidCrash.h */,
+				23F0A1961E2762DB00B023E9 /* AvoidCrash.m */,
+				23F0A1971E2762DB00B023E9 /* NSArray+AvoidCrash.h */,
+				23F0A1981E2762DB00B023E9 /* NSArray+AvoidCrash.m */,
+				23F0A1991E2762DB00B023E9 /* NSAttributedString+AvoidCrash.h */,
+				23F0A19A1E2762DB00B023E9 /* NSAttributedString+AvoidCrash.m */,
+				23F0A19B1E2762DB00B023E9 /* NSDictionary+AvoidCrash.h */,
+				23F0A19C1E2762DB00B023E9 /* NSDictionary+AvoidCrash.m */,
+				23F0A19D1E2762DB00B023E9 /* NSMutableArray+AvoidCrash.h */,
+				23F0A19E1E2762DB00B023E9 /* NSMutableArray+AvoidCrash.m */,
+				23F0A19F1E2762DB00B023E9 /* NSMutableAttributedString+AvoidCrash.h */,
+				23F0A1A01E2762DB00B023E9 /* NSMutableAttributedString+AvoidCrash.m */,
+				23F0A1A11E2762DB00B023E9 /* NSMutableDictionary+AvoidCrash.h */,
+				23F0A1A21E2762DB00B023E9 /* NSMutableDictionary+AvoidCrash.m */,
+				23F0A1A31E2762DB00B023E9 /* NSMutableString+AvoidCrash.h */,
+				23F0A1A41E2762DB00B023E9 /* NSMutableString+AvoidCrash.m */,
+				23F0A1A51E2762DB00B023E9 /* NSObject+AvoidCrash.h */,
+				23F0A1A61E2762DB00B023E9 /* NSObject+AvoidCrash.m */,
+				23F0A1A71E2762DB00B023E9 /* NSString+AvoidCrash.h */,
+				23F0A1A81E2762DB00B023E9 /* NSString+AvoidCrash.m */,
+			);
+			path = AvoidCrash;
+			sourceTree = "<group>";
+		};
+		23F0A1A91E2762DB00B023E9 /* DefaultZCY */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1AA1E2762DB00B023E9 /* DefaultZCY.h */,
+				23F0A1AB1E2762DB00B023E9 /* ZCYAnimation */,
+			);
+			path = DefaultZCY;
+			sourceTree = "<group>";
+		};
+		23F0A1AB1E2762DB00B023E9 /* ZCYAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1AC1E2762DB00B023E9 /* ZCYAnimation.h */,
+				23F0A1AD1E2762DB00B023E9 /* ZCYAnimation.m */,
+			);
+			path = ZCYAnimation;
+			sourceTree = "<group>";
+		};
+		23F0A1AE1E2762DB00B023E9 /* gitignore-master */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1AF1E2762DB00B023E9 /* .github */,
+				23F0A1B11E2762DB00B023E9 /* Actionscript.gitignore */,
+				23F0A1B21E2762DB00B023E9 /* Ada.gitignore */,
+				23F0A1B31E2762DB00B023E9 /* Agda.gitignore */,
+				23F0A1B41E2762DB00B023E9 /* Android.gitignore */,
+				23F0A1B51E2762DB00B023E9 /* AppceleratorTitanium.gitignore */,
+				23F0A1B61E2762DB00B023E9 /* AppEngine.gitignore */,
+				23F0A1B71E2762DB00B023E9 /* ArchLinuxPackages.gitignore */,
+				23F0A1B81E2762DB00B023E9 /* Autotools.gitignore */,
+				23F0A1B91E2762DB00B023E9 /* C++.gitignore */,
+				23F0A1BA1E2762DB00B023E9 /* C.gitignore */,
+				23F0A1BB1E2762DB00B023E9 /* CakePHP.gitignore */,
+				23F0A1BC1E2762DB00B023E9 /* CFWheels.gitignore */,
+				23F0A1BD1E2762DB00B023E9 /* ChefCookbook.gitignore */,
+				23F0A1BE1E2762DB00B023E9 /* Clojure.gitignore */,
+				23F0A1BF1E2762DB00B023E9 /* CMake.gitignore */,
+				23F0A1C01E2762DB00B023E9 /* CodeIgniter.gitignore */,
+				23F0A1C11E2762DB00B023E9 /* CommonLisp.gitignore */,
+				23F0A1C21E2762DB00B023E9 /* Composer.gitignore */,
+				23F0A1C31E2762DB00B023E9 /* Concrete5.gitignore */,
+				23F0A1C41E2762DB00B023E9 /* CONTRIBUTING.md */,
+				23F0A1C51E2762DB00B023E9 /* Coq.gitignore */,
+				23F0A1C61E2762DB00B023E9 /* CraftCMS.gitignore */,
+				23F0A1C71E2762DB00B023E9 /* CUDA.gitignore */,
+				23F0A1C81E2762DB00B023E9 /* D.gitignore */,
+				23F0A1C91E2762DB00B023E9 /* Dart.gitignore */,
+				23F0A1CA1E2762DB00B023E9 /* Delphi.gitignore */,
+				23F0A1CB1E2762DB00B023E9 /* DM.gitignore */,
+				23F0A1CC1E2762DB00B023E9 /* Drupal.gitignore */,
+				23F0A1CD1E2762DB00B023E9 /* Eagle.gitignore */,
+				23F0A1CE1E2762DB00B023E9 /* Elisp.gitignore */,
+				23F0A1CF1E2762DB00B023E9 /* Elixir.gitignore */,
+				23F0A1D01E2762DB00B023E9 /* Elm.gitignore */,
+				23F0A1D11E2762DB00B023E9 /* EPiServer.gitignore */,
+				23F0A1D21E2762DB00B023E9 /* Erlang.gitignore */,
+				23F0A1D31E2762DB00B023E9 /* ExpressionEngine.gitignore */,
+				23F0A1D41E2762DB00B023E9 /* ExtJs.gitignore */,
+				23F0A1D51E2762DB00B023E9 /* Fancy.gitignore */,
+				23F0A1D61E2762DB00B023E9 /* Finale.gitignore */,
+				23F0A1D71E2762DB00B023E9 /* ForceDotCom.gitignore */,
+				23F0A1D81E2762DB00B023E9 /* Fortran.gitignore */,
+				23F0A1D91E2762DB00B023E9 /* FuelPHP.gitignore */,
+				23F0A1DA1E2762DB00B023E9 /* Gcov.gitignore */,
+				23F0A1DB1E2762DB00B023E9 /* GitBook.gitignore */,
+				23F0A1DC1E2762DB00B023E9 /* Global */,
+				23F0A2161E2762DB00B023E9 /* Go.gitignore */,
+				23F0A2171E2762DB00B023E9 /* Gradle.gitignore */,
+				23F0A2181E2762DB00B023E9 /* Grails.gitignore */,
+				23F0A2191E2762DB00B023E9 /* GWT.gitignore */,
+				23F0A21A1E2762DB00B023E9 /* Haskell.gitignore */,
+				23F0A21B1E2762DB00B023E9 /* Idris.gitignore */,
+				23F0A21C1E2762DB00B023E9 /* IGORPro.gitignore */,
+				23F0A21D1E2762DB00B023E9 /* Java.gitignore */,
+				23F0A21E1E2762DB00B023E9 /* Jboss.gitignore */,
+				23F0A21F1E2762DB00B023E9 /* Jekyll.gitignore */,
+				23F0A2201E2762DB00B023E9 /* Joomla.gitignore */,
+				23F0A2211E2762DB00B023E9 /* Julia.gitignore */,
+				23F0A2221E2762DB00B023E9 /* KiCad.gitignore */,
+				23F0A2231E2762DB00B023E9 /* Kohana.gitignore */,
+				23F0A2241E2762DB00B023E9 /* LabVIEW.gitignore */,
+				23F0A2251E2762DB00B023E9 /* Laravel.gitignore */,
+				23F0A2261E2762DB00B023E9 /* Leiningen.gitignore */,
+				23F0A2271E2762DB00B023E9 /* LemonStand.gitignore */,
+				23F0A2281E2762DB00B023E9 /* LICENSE */,
+				23F0A2291E2762DB00B023E9 /* Lilypond.gitignore */,
+				23F0A22A1E2762DB00B023E9 /* Lithium.gitignore */,
+				23F0A22B1E2762DB00B023E9 /* Lua.gitignore */,
+				23F0A22C1E2762DB00B023E9 /* Magento.gitignore */,
+				23F0A22D1E2762DB00B023E9 /* Maven.gitignore */,
+				23F0A22E1E2762DB00B023E9 /* Mercury.gitignore */,
+				23F0A22F1E2762DB00B023E9 /* MetaProgrammingSystem.gitignore */,
+				23F0A2301E2762DB00B023E9 /* Nanoc.gitignore */,
+				23F0A2311E2762DB00B023E9 /* Nim.gitignore */,
+				23F0A2321E2762DB00B023E9 /* Node.gitignore */,
+				23F0A2331E2762DB00B023E9 /* Objective-C.gitignore */,
+				23F0A2341E2762DB00B023E9 /* OCaml.gitignore */,
+				23F0A2351E2762DB00B023E9 /* Opa.gitignore */,
+				23F0A2361E2762DB00B023E9 /* OpenCart.gitignore */,
+				23F0A2371E2762DB00B023E9 /* OracleForms.gitignore */,
+				23F0A2381E2762DB00B023E9 /* Packer.gitignore */,
+				23F0A2391E2762DB00B023E9 /* Perl.gitignore */,
+				23F0A23A1E2762DB00B023E9 /* Phalcon.gitignore */,
+				23F0A23B1E2762DB00B023E9 /* PlayFramework.gitignore */,
+				23F0A23C1E2762DB00B023E9 /* Plone.gitignore */,
+				23F0A23D1E2762DB00B023E9 /* Prestashop.gitignore */,
+				23F0A23E1E2762DB00B023E9 /* Processing.gitignore */,
+				23F0A23F1E2762DB00B023E9 /* Python.gitignore */,
+				23F0A2401E2762DB00B023E9 /* Qooxdoo.gitignore */,
+				23F0A2411E2762DC00B023E9 /* Qt.gitignore */,
+				23F0A2421E2762DC00B023E9 /* R.gitignore */,
+				23F0A2431E2762DC00B023E9 /* Rails.gitignore */,
+				23F0A2441E2762DC00B023E9 /* README.md */,
+				23F0A2451E2762DC00B023E9 /* RhodesRhomobile.gitignore */,
+				23F0A2461E2762DC00B023E9 /* ROS.gitignore */,
+				23F0A2471E2762DC00B023E9 /* Ruby.gitignore */,
+				23F0A2481E2762DC00B023E9 /* Rust.gitignore */,
+				23F0A2491E2762DC00B023E9 /* Sass.gitignore */,
+				23F0A24A1E2762DC00B023E9 /* Scala.gitignore */,
+				23F0A24B1E2762DC00B023E9 /* Scheme.gitignore */,
+				23F0A24C1E2762DC00B023E9 /* SCons.gitignore */,
+				23F0A24D1E2762DC00B023E9 /* Scrivener.gitignore */,
+				23F0A24E1E2762DC00B023E9 /* Sdcc.gitignore */,
+				23F0A24F1E2762DC00B023E9 /* SeamGen.gitignore */,
+				23F0A2501E2762DC00B023E9 /* SketchUp.gitignore */,
+				23F0A2511E2762DC00B023E9 /* Smalltalk.gitignore */,
+				23F0A2521E2762DC00B023E9 /* Stella.gitignore */,
+				23F0A2531E2762DC00B023E9 /* SugarCRM.gitignore */,
+				23F0A2541E2762DC00B023E9 /* Swift.gitignore */,
+				23F0A2551E2762DC00B023E9 /* Symfony.gitignore */,
+				23F0A2561E2762DC00B023E9 /* SymphonyCMS.gitignore */,
+				23F0A2571E2762DC00B023E9 /* Terraform.gitignore */,
+				23F0A2581E2762DC00B023E9 /* TeX.gitignore */,
+				23F0A2591E2762DC00B023E9 /* Textpattern.gitignore */,
+				23F0A25A1E2762DC00B023E9 /* TurboGears2.gitignore */,
+				23F0A25B1E2762DC00B023E9 /* Typo3.gitignore */,
+				23F0A25C1E2762DC00B023E9 /* Umbraco.gitignore */,
+				23F0A25D1E2762DC00B023E9 /* Unity.gitignore */,
+				23F0A25E1E2762DC00B023E9 /* UnrealEngine.gitignore */,
+				23F0A25F1E2762DC00B023E9 /* VisualStudio.gitignore */,
+				23F0A2601E2762DC00B023E9 /* VVVV.gitignore */,
+				23F0A2611E2762DC00B023E9 /* Waf.gitignore */,
+				23F0A2621E2762DC00B023E9 /* WordPress.gitignore */,
+				23F0A2631E2762DC00B023E9 /* Xojo.gitignore */,
+				23F0A2641E2762DC00B023E9 /* Yeoman.gitignore */,
+				23F0A2651E2762DC00B023E9 /* Yii.gitignore */,
+				23F0A2661E2762DC00B023E9 /* ZendFramework.gitignore */,
+				23F0A2671E2762DC00B023E9 /* Zephir.gitignore */,
+			);
+			path = "gitignore-master";
+			sourceTree = "<group>";
+		};
+		23F0A1AF1E2762DB00B023E9 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1B01E2762DB00B023E9 /* PULL_REQUEST_TEMPLATE.md */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		23F0A1DC1E2762DB00B023E9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A1DD1E2762DB00B023E9 /* Anjuta.gitignore */,
+				23F0A1DE1E2762DB00B023E9 /* Ansible.gitignore */,
+				23F0A1DF1E2762DB00B023E9 /* Archives.gitignore */,
+				23F0A1E01E2762DB00B023E9 /* Bazaar.gitignore */,
+				23F0A1E11E2762DB00B023E9 /* BricxCC.gitignore */,
+				23F0A1E21E2762DB00B023E9 /* Calabash.gitignore */,
+				23F0A1E31E2762DB00B023E9 /* Cloud9.gitignore */,
+				23F0A1E41E2762DB00B023E9 /* CodeKit.gitignore */,
+				23F0A1E51E2762DB00B023E9 /* CVS.gitignore */,
+				23F0A1E61E2762DB00B023E9 /* DartEditor.gitignore */,
+				23F0A1E71E2762DB00B023E9 /* Dreamweaver.gitignore */,
+				23F0A1E81E2762DB00B023E9 /* Dropbox.gitignore */,
+				23F0A1E91E2762DB00B023E9 /* Eclipse.gitignore */,
+				23F0A1EA1E2762DB00B023E9 /* EiffelStudio.gitignore */,
+				23F0A1EB1E2762DB00B023E9 /* Emacs.gitignore */,
+				23F0A1EC1E2762DB00B023E9 /* Ensime.gitignore */,
+				23F0A1ED1E2762DB00B023E9 /* Espresso.gitignore */,
+				23F0A1EE1E2762DB00B023E9 /* FlexBuilder.gitignore */,
+				23F0A1EF1E2762DB00B023E9 /* GPG.gitignore */,
+				23F0A1F01E2762DB00B023E9 /* JDeveloper.gitignore */,
+				23F0A1F11E2762DB00B023E9 /* JetBrains.gitignore */,
+				23F0A1F21E2762DB00B023E9 /* Kate.gitignore */,
+				23F0A1F31E2762DB00B023E9 /* KDevelop4.gitignore */,
+				23F0A1F41E2762DB00B023E9 /* Lazarus.gitignore */,
+				23F0A1F51E2762DB00B023E9 /* LibreOffice.gitignore */,
+				23F0A1F61E2762DB00B023E9 /* Linux.gitignore */,
+				23F0A1F71E2762DB00B023E9 /* LyX.gitignore */,
+				23F0A1F81E2762DB00B023E9 /* macOS.gitignore */,
+				23F0A1F91E2762DB00B023E9 /* Matlab.gitignore */,
+				23F0A1FA1E2762DB00B023E9 /* Mercurial.gitignore */,
+				23F0A1FB1E2762DB00B023E9 /* MicrosoftOffice.gitignore */,
+				23F0A1FC1E2762DB00B023E9 /* ModelSim.gitignore */,
+				23F0A1FD1E2762DB00B023E9 /* Momentics.gitignore */,
+				23F0A1FE1E2762DB00B023E9 /* MonoDevelop.gitignore */,
+				23F0A1FF1E2762DB00B023E9 /* NetBeans.gitignore */,
+				23F0A2001E2762DB00B023E9 /* Ninja.gitignore */,
+				23F0A2011E2762DB00B023E9 /* NotepadPP.gitignore */,
+				23F0A2021E2762DB00B023E9 /* Otto.gitignore */,
+				23F0A2031E2762DB00B023E9 /* README.md */,
+				23F0A2041E2762DB00B023E9 /* Redcar.gitignore */,
+				23F0A2051E2762DB00B023E9 /* Redis.gitignore */,
+				23F0A2061E2762DB00B023E9 /* SBT.gitignore */,
+				23F0A2071E2762DB00B023E9 /* SlickEdit.gitignore */,
+				23F0A2081E2762DB00B023E9 /* SublimeText.gitignore */,
+				23F0A2091E2762DB00B023E9 /* SVN.gitignore */,
+				23F0A20A1E2762DB00B023E9 /* SynopsysVCS.gitignore */,
+				23F0A20B1E2762DB00B023E9 /* Tags.gitignore */,
+				23F0A20C1E2762DB00B023E9 /* TextMate.gitignore */,
+				23F0A20D1E2762DB00B023E9 /* TortoiseGit.gitignore */,
+				23F0A20E1E2762DB00B023E9 /* Vagrant.gitignore */,
+				23F0A20F1E2762DB00B023E9 /* Vim.gitignore */,
+				23F0A2101E2762DB00B023E9 /* VirtualEnv.gitignore */,
+				23F0A2111E2762DB00B023E9 /* VisualStudioCode.gitignore */,
+				23F0A2121E2762DB00B023E9 /* WebMethods.gitignore */,
+				23F0A2131E2762DB00B023E9 /* Windows.gitignore */,
+				23F0A2141E2762DB00B023E9 /* Xcode.gitignore */,
+				23F0A2151E2762DB00B023E9 /* XilinxISE.gitignore */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		23F0A2681E2762DC00B023E9 /* ThreeTool */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2691E2762DC00B023E9 /* Masonry */,
+				23F0A2841E2762DC00B023E9 /* MBProgressHUD */,
+			);
+			path = ThreeTool;
+			sourceTree = "<group>";
+		};
+		23F0A2691E2762DC00B023E9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A26A1E2762DC00B023E9 /* Masonry */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		23F0A26A1E2762DC00B023E9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A26B1E2762DC00B023E9 /* MASCompositeConstraint.h */,
+				23F0A26C1E2762DC00B023E9 /* MASCompositeConstraint.m */,
+				23F0A26D1E2762DC00B023E9 /* MASConstraint+Private.h */,
+				23F0A26E1E2762DC00B023E9 /* MASConstraint.h */,
+				23F0A26F1E2762DC00B023E9 /* MASConstraint.m */,
+				23F0A2701E2762DC00B023E9 /* MASConstraintMaker.h */,
+				23F0A2711E2762DC00B023E9 /* MASConstraintMaker.m */,
+				23F0A2721E2762DC00B023E9 /* MASLayoutConstraint.h */,
+				23F0A2731E2762DC00B023E9 /* MASLayoutConstraint.m */,
+				23F0A2741E2762DC00B023E9 /* Masonry.h */,
+				23F0A2751E2762DC00B023E9 /* MASUtilities.h */,
+				23F0A2761E2762DC00B023E9 /* MASViewAttribute.h */,
+				23F0A2771E2762DC00B023E9 /* MASViewAttribute.m */,
+				23F0A2781E2762DC00B023E9 /* MASViewConstraint.h */,
+				23F0A2791E2762DC00B023E9 /* MASViewConstraint.m */,
+				23F0A27A1E2762DC00B023E9 /* NSArray+MASAdditions.h */,
+				23F0A27B1E2762DC00B023E9 /* NSArray+MASAdditions.m */,
+				23F0A27C1E2762DC00B023E9 /* NSArray+MASShorthandAdditions.h */,
+				23F0A27D1E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				23F0A27E1E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				23F0A27F1E2762DC00B023E9 /* View+MASAdditions.h */,
+				23F0A2801E2762DC00B023E9 /* View+MASAdditions.m */,
+				23F0A2811E2762DC00B023E9 /* View+MASShorthandAdditions.h */,
+				23F0A2821E2762DC00B023E9 /* ViewController+MASAdditions.h */,
+				23F0A2831E2762DC00B023E9 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		23F0A2841E2762DC00B023E9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2851E2762DC00B023E9 /* MBProgressHUD.h */,
+				23F0A2861E2762DC00B023E9 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		23F0A2871E2762DC00B023E9 /* ZCYClassMethods */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2881E2762DC00B023E9 /* ZCYClassMethods.h */,
+				23F0A2891E2762DC00B023E9 /* ZCYClassMethods.m */,
+			);
+			path = ZCYClassMethods;
+			sourceTree = "<group>";
+		};
+		23F0A28A1E2762DC00B023E9 /* ZCYComponents */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A28B1E2762DC00B023E9 /* ZCYAutoLayout */,
+				23F0A2901E2762DC00B023E9 /* ZCYCollectionViewFlowLayout */,
+				23F0A2931E2762DC00B023E9 /* ZCYComponents.h */,
+				23F0A2941E2762DC00B023E9 /* ZCYFilterMenu */,
+				23F0A2971E2762DC00B023E9 /* ZCYNavigationController */,
+				23F0A29A1E2762DC00B023E9 /* ZCYQRCodeReader */,
+				23F0A29F1E2762DC00B023E9 /* ZCYSegmentedBar */,
+				23F0A2A21E2762DC00B023E9 /* ZCYStarRating */,
+				23F0A2A51E2762DC00B023E9 /* ZCYTextView */,
+				23F0A2A81E2762DC00B023E9 /* ZCYTopSlider */,
+				23F0A2AB1E2762DC00B023E9 /* ZCYVersionManager */,
+			);
+			path = ZCYComponents;
+			sourceTree = "<group>";
+		};
+		23F0A28B1E2762DC00B023E9 /* ZCYAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A28C1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.h */,
+				23F0A28D1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.m */,
+				23F0A28E1E2762DC00B023E9 /* UIView+ZCYAutoLayout.h */,
+				23F0A28F1E2762DC00B023E9 /* UIView+ZCYAutoLayout.m */,
+			);
+			path = ZCYAutoLayout;
+			sourceTree = "<group>";
+		};
+		23F0A2901E2762DC00B023E9 /* ZCYCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2911E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.h */,
+				23F0A2921E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.m */,
+			);
+			path = ZCYCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		23F0A2941E2762DC00B023E9 /* ZCYFilterMenu */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2951E2762DC00B023E9 /* ZCYFilterMenu.h */,
+				23F0A2961E2762DC00B023E9 /* ZCYFilterMenu.m */,
+			);
+			path = ZCYFilterMenu;
+			sourceTree = "<group>";
+		};
+		23F0A2971E2762DC00B023E9 /* ZCYNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2981E2762DC00B023E9 /* ZCYNavigationController.h */,
+				23F0A2991E2762DC00B023E9 /* ZCYNavigationController.m */,
+			);
+			path = ZCYNavigationController;
+			sourceTree = "<group>";
+		};
+		23F0A29A1E2762DC00B023E9 /* ZCYQRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A29B1E2762DC00B023E9 /* QRCodeReaderSupport.h */,
+				23F0A29C1E2762DC00B023E9 /* QRCodeReaderSupport.m */,
+				23F0A29D1E2762DC00B023E9 /* ZCYQRCodeReader.h */,
+				23F0A29E1E2762DC00B023E9 /* ZCYQRCodeReader.m */,
+			);
+			path = ZCYQRCodeReader;
+			sourceTree = "<group>";
+		};
+		23F0A29F1E2762DC00B023E9 /* ZCYSegmentedBar */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2A01E2762DC00B023E9 /* ZCYSegmentedBar.h */,
+				23F0A2A11E2762DC00B023E9 /* ZCySegmentedBar.m */,
+			);
+			path = ZCYSegmentedBar;
+			sourceTree = "<group>";
+		};
+		23F0A2A21E2762DC00B023E9 /* ZCYStarRating */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2A31E2762DC00B023E9 /* ZCYStarRating.h */,
+				23F0A2A41E2762DC00B023E9 /* ZCYStarRating.m */,
+			);
+			path = ZCYStarRating;
+			sourceTree = "<group>";
+		};
+		23F0A2A51E2762DC00B023E9 /* ZCYTextView */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2A61E2762DC00B023E9 /* ZCYTextView.h */,
+				23F0A2A71E2762DC00B023E9 /* ZCYTextView.m */,
+			);
+			path = ZCYTextView;
+			sourceTree = "<group>";
+		};
+		23F0A2A81E2762DC00B023E9 /* ZCYTopSlider */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2A91E2762DC00B023E9 /* ZCYTopSlider.h */,
+				23F0A2AA1E2762DC00B023E9 /* ZCYTopSlider.m */,
+			);
+			path = ZCYTopSlider;
+			sourceTree = "<group>";
+		};
+		23F0A2AB1E2762DC00B023E9 /* ZCYVersionManager */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2AC1E2762DC00B023E9 /* ZCYVersionManager.h */,
+				23F0A2AD1E2762DC00B023E9 /* ZCYVersionManager.m */,
+			);
+			path = ZCYVersionManager;
+			sourceTree = "<group>";
+		};
+		23F0A2AE1E2762DC00B023E9 /* ZCYExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2AF1E2762DC00B023E9 /* Category */,
+				23F0A2D11E2762DC00B023E9 /* NSObject */,
+				23F0A2D61E2762DC00B023E9 /* UIButton */,
+				23F0A2DD1E2762DC00B023E9 /* UIDevice */,
+				23F0A2E01E2762DC00B023E9 /* UIImage */,
+				23F0A2E31E2762DC00B023E9 /* UIImageView */,
+				23F0A2E61E2762DC00B023E9 /* UIView */,
+				23F0A2E91E2762DC00B023E9 /* ZCYExtensionKit.h */,
+			);
+			path = ZCYExtensionKit;
+			sourceTree = "<group>";
+		};
+		23F0A2AF1E2762DC00B023E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2B01E2762DC00B023E9 /* CLLocation+GPSDictionary.h */,
+				23F0A2B11E2762DC00B023E9 /* CLLocation+GPSDictionary.m */,
+				23F0A2B21E2762DC00B023E9 /* Foundation+Log.m */,
+				23F0A2B31E2762DC00B023E9 /* NSData+JKBase64.h */,
+				23F0A2B41E2762DC00B023E9 /* NSData+JKBase64.m */,
+				23F0A2B51E2762DC00B023E9 /* NSDate+JKExtension.h */,
+				23F0A2B61E2762DC00B023E9 /* NSDate+JKExtension.m */,
+				23F0A2B71E2762DC00B023E9 /* NSDictionary+CLLocation.h */,
+				23F0A2B81E2762DC00B023E9 /* NSDictionary+CLLocation.m */,
+				23F0A2B91E2762DC00B023E9 /* NSString+JKBase64.h */,
+				23F0A2BA1E2762DC00B023E9 /* NSString+JKBase64.m */,
+				23F0A2BB1E2762DC00B023E9 /* NSString+JKNormalRegex.h */,
+				23F0A2BC1E2762DC00B023E9 /* NSString+JKNormalRegex.m */,
+				23F0A2BD1E2762DC00B023E9 /* NSString+MD5.h */,
+				23F0A2BE1E2762DC00B023E9 /* NSString+MD5.m */,
+				23F0A2BF1E2762DC00B023E9 /* NSString+RENumberFormat.h */,
+				23F0A2C01E2762DC00B023E9 /* NSString+RENumberFormat.m */,
+				23F0A2C11E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.h */,
+				23F0A2C21E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.m */,
+				23F0A2C31E2762DC00B023E9 /* UIColor+JKHEX.h */,
+				23F0A2C41E2762DC00B023E9 /* UIColor+JKHEX.m */,
+				23F0A2C51E2762DC00B023E9 /* UIImage+JKAlpha.h */,
+				23F0A2C61E2762DC00B023E9 /* UIImage+JKAlpha.m */,
+				23F0A2C71E2762DC00B023E9 /* UIImage+JKColor.h */,
+				23F0A2C81E2762DC00B023E9 /* UIImage+JKColor.m */,
+				23F0A2C91E2762DC00B023E9 /* UIImage+JKResize.h */,
+				23F0A2CA1E2762DC00B023E9 /* UIImage+JKResize.m */,
+				23F0A2CB1E2762DC00B023E9 /* UIImage+JKRoundedCorner.h */,
+				23F0A2CC1E2762DC00B023E9 /* UIImage+JKRoundedCorner.m */,
+				23F0A2CD1E2762DC00B023E9 /* UIScrollView+leftSlide.h */,
+				23F0A2CE1E2762DC00B023E9 /* UIScrollView+leftSlide.m */,
+				23F0A2CF1E2762DC00B023E9 /* UITableViewCell+getIndexPath.h */,
+				23F0A2D01E2762DC00B023E9 /* UITableViewCell+getIndexPath.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		23F0A2D11E2762DC00B023E9 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2D21E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.h */,
+				23F0A2D31E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.m */,
+				23F0A2D41E2762DC00B023E9 /* NSObject+ZCYKit.h */,
+				23F0A2D51E2762DC00B023E9 /* NSObject+ZCYKit.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		23F0A2D61E2762DC00B023E9 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2D71E2762DC00B023E9 /* UIButton+ImageTitleLayout.h */,
+				23F0A2D81E2762DC00B023E9 /* UIButton+ImageTitleLayout.m */,
+				23F0A2D91E2762DC00B023E9 /* UIButton+singleAction.h */,
+				23F0A2DA1E2762DC00B023E9 /* UIButton+singleAction.m */,
+				23F0A2DB1E2762DC00B023E9 /* UIButton+ZCYBadge.h */,
+				23F0A2DC1E2762DC00B023E9 /* UIButton+ZCYBadge.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		23F0A2DD1E2762DC00B023E9 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2DE1E2762DC00B023E9 /* UIDevice+ZCYKit.h */,
+				23F0A2DF1E2762DC00B023E9 /* UIDevice+ZCYKit.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		23F0A2E01E2762DC00B023E9 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2E11E2762DC00B023E9 /* UIImage+ZCYKit.h */,
+				23F0A2E21E2762DC00B023E9 /* UIImage+ZCYKit.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		23F0A2E31E2762DC00B023E9 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2E41E2762DC00B023E9 /* UIImageView+ZCYKit.h */,
+				23F0A2E51E2762DC00B023E9 /* UIImageView+ZCYKit.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		23F0A2E61E2762DC00B023E9 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2E71E2762DC00B023E9 /* UIView+ZCYKit.h */,
+				23F0A2E81E2762DC00B023E9 /* UIView+ZCYKit.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		23F0A2EA1E2762DC00B023E9 /* ZCYInstanceMethods */ = {
+			isa = PBXGroup;
+			children = (
+				23F0A2EB1E2762DC00B023E9 /* ZCYInstanceMethods.h */,
+				23F0A2EC1E2762DC00B023E9 /* ZCYInstanceMethods.m */,
+			);
+			path = ZCYInstanceMethods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F0A1781E2762BC00B023E9 /* ZCYLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F0A1901E2762BC00B023E9 /* Build configuration list for PBXNativeTarget "ZCYLibrary" */;
+			buildPhases = (
+				23F0A1751E2762BC00B023E9 /* Sources */,
+				23F0A1761E2762BC00B023E9 /* Frameworks */,
+				23F0A1771E2762BC00B023E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCYLibrary;
+			productName = ZCYLibrary;
+			productReference = 23F0A1791E2762BC00B023E9 /* ZCYLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F0A1711E2762BC00B023E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huayuan320;
+				TargetAttributes = {
+					23F0A1781E2762BC00B023E9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q92865FYE5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23F0A1741E2762BC00B023E9 /* Build configuration list for PBXProject "ZCYLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F0A1701E2762BC00B023E9;
+			productRefGroup = 23F0A17A1E2762BC00B023E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F0A1781E2762BC00B023E9 /* ZCYLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F0A1771E2762BC00B023E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F0A3751E2762DC00B023E9 /* Maven.gitignore in Resources */,
+				23F0A3A91E2762DC00B023E9 /* Waf.gitignore in Resources */,
+				23F0A33F1E2762DC00B023E9 /* LyX.gitignore in Resources */,
+				23F0A3221E2762DC00B023E9 /* FuelPHP.gitignore in Resources */,
+				23F0A32C1E2762DC00B023E9 /* CodeKit.gitignore in Resources */,
+				23F0A34C1E2762DC00B023E9 /* Redcar.gitignore in Resources */,
+				23F0A36E1E2762DC00B023E9 /* Leiningen.gitignore in Resources */,
+				23F0A3541E2762DC00B023E9 /* TextMate.gitignore in Resources */,
+				23F0A3081E2762DC00B023E9 /* CMake.gitignore in Resources */,
+				23F0A30E1E2762DC00B023E9 /* Coq.gitignore in Resources */,
+				23F0A3AA1E2762DC00B023E9 /* WordPress.gitignore in Resources */,
+				23F0A3831E2762DC00B023E9 /* PlayFramework.gitignore in Resources */,
+				23F0A3251E2762DC00B023E9 /* Anjuta.gitignore in Resources */,
+				23F0A36D1E2762DC00B023E9 /* Laravel.gitignore in Resources */,
+				23F0A3171E2762DC00B023E9 /* Elisp.gitignore in Resources */,
+				23F0A3331E2762DC00B023E9 /* Emacs.gitignore in Resources */,
+				23F0A37D1E2762DC00B023E9 /* Opa.gitignore in Resources */,
+				23F0A3981E2762DC00B023E9 /* SketchUp.gitignore in Resources */,
+				23F0A3471E2762DC00B023E9 /* NetBeans.gitignore in Resources */,
+				23F0A3571E2762DC00B023E9 /* Vim.gitignore in Resources */,
+				23F0A39E1E2762DC00B023E9 /* SymphonyCMS.gitignore in Resources */,
+				23F0A3861E2762DC00B023E9 /* Processing.gitignore in Resources */,
+				23F0A3401E2762DC00B023E9 /* macOS.gitignore in Resources */,
+				23F0A3811E2762DC00B023E9 /* Perl.gitignore in Resources */,
+				23F0A36A1E2762DC00B023E9 /* KiCad.gitignore in Resources */,
+				23F0A18C1E2762BC00B023E9 /* LaunchScreen.storyboard in Resources */,
+				23F0A3351E2762DC00B023E9 /* Espresso.gitignore in Resources */,
+				23F0A3921E2762DC00B023E9 /* Scala.gitignore in Resources */,
+				23F0A3A71E2762DC00B023E9 /* VisualStudio.gitignore in Resources */,
+				23F0A3561E2762DC00B023E9 /* Vagrant.gitignore in Resources */,
+				23F0A30F1E2762DC00B023E9 /* CraftCMS.gitignore in Resources */,
+				23F0A3481E2762DC00B023E9 /* Ninja.gitignore in Resources */,
+				23F0A35E1E2762DC00B023E9 /* Go.gitignore in Resources */,
+				23F0A3291E2762DC00B023E9 /* BricxCC.gitignore in Resources */,
+				23F0A3931E2762DC00B023E9 /* Scheme.gitignore in Resources */,
+				23F0A3241E2762DC00B023E9 /* GitBook.gitignore in Resources */,
+				23F0A39D1E2762DC00B023E9 /* Symfony.gitignore in Resources */,
+				23F0A3631E2762DC00B023E9 /* Idris.gitignore in Resources */,
+				23F0A31F1E2762DC00B023E9 /* Finale.gitignore in Resources */,
+				23F0A3231E2762DC00B023E9 /* Gcov.gitignore in Resources */,
+				23F0A3681E2762DC00B023E9 /* Joomla.gitignore in Resources */,
+				23F0A37E1E2762DC00B023E9 /* OpenCart.gitignore in Resources */,
+				23F0A33E1E2762DC00B023E9 /* Linux.gitignore in Resources */,
+				23F0A3411E2762DC00B023E9 /* Matlab.gitignore in Resources */,
+				23F0A3651E2762DC00B023E9 /* Java.gitignore in Resources */,
+				23F0A39A1E2762DC00B023E9 /* Stella.gitignore in Resources */,
+				23F0A39F1E2762DC00B023E9 /* Terraform.gitignore in Resources */,
+				23F0A37A1E2762DC00B023E9 /* Node.gitignore in Resources */,
+				23F0A3301E2762DC00B023E9 /* Dropbox.gitignore in Resources */,
+				23F0A3011E2762DC00B023E9 /* Autotools.gitignore in Resources */,
+				23F0A38F1E2762DC00B023E9 /* Ruby.gitignore in Resources */,
+				23F0A3531E2762DC00B023E9 /* Tags.gitignore in Resources */,
+				23F0A3451E2762DC00B023E9 /* Momentics.gitignore in Resources */,
+				23F0A36C1E2762DC00B023E9 /* LabVIEW.gitignore in Resources */,
+				23F0A35A1E2762DC00B023E9 /* WebMethods.gitignore in Resources */,
+				23F0A3661E2762DC00B023E9 /* Jboss.gitignore in Resources */,
+				23F0A3911E2762DC00B023E9 /* Sass.gitignore in Resources */,
+				23F0A38D1E2762DC00B023E9 /* RhodesRhomobile.gitignore in Resources */,
+				23F0A38B1E2762DC00B023E9 /* Rails.gitignore in Resources */,
+				23F0A3091E2762DC00B023E9 /* CodeIgniter.gitignore in Resources */,
+				23F0A3501E2762DC00B023E9 /* SublimeText.gitignore in Resources */,
+				23F0A38A1E2762DC00B023E9 /* R.gitignore in Resources */,
+				23F0A3491E2762DC00B023E9 /* NotepadPP.gitignore in Resources */,
+				23F0A3521E2762DC00B023E9 /* SynopsysVCS.gitignore in Resources */,
+				23F0A3181E2762DC00B023E9 /* Elixir.gitignore in Resources */,
+				23F0A3721E2762DC00B023E9 /* Lithium.gitignore in Resources */,
+				23F0A3891E2762DC00B023E9 /* Qt.gitignore in Resources */,
+				23F0A3871E2762DC00B023E9 /* Python.gitignore in Resources */,
+				23F0A3711E2762DC00B023E9 /* Lilypond.gitignore in Resources */,
+				23F0A37F1E2762DC00B023E9 /* OracleForms.gitignore in Resources */,
+				23F0A2FE1E2762DC00B023E9 /* AppceleratorTitanium.gitignore in Resources */,
+				23F0A3A61E2762DC00B023E9 /* UnrealEngine.gitignore in Resources */,
+				23F0A3041E2762DC00B023E9 /* CakePHP.gitignore in Resources */,
+				23F0A3671E2762DC00B023E9 /* Jekyll.gitignore in Resources */,
+				23F0A3211E2762DC00B023E9 /* Fortran.gitignore in Resources */,
+				23F0A3691E2762DC00B023E9 /* Julia.gitignore in Resources */,
+				23F0A3AE1E2762DC00B023E9 /* ZendFramework.gitignore in Resources */,
+				23F0A3441E2762DC00B023E9 /* ModelSim.gitignore in Resources */,
+				23F0A33D1E2762DC00B023E9 /* LibreOffice.gitignore in Resources */,
+				23F0A33A1E2762DC00B023E9 /* Kate.gitignore in Resources */,
+				23F0A3551E2762DC00B023E9 /* TortoiseGit.gitignore in Resources */,
+				23F0A3AC1E2762DC00B023E9 /* Yeoman.gitignore in Resources */,
+				23F0A3511E2762DC00B023E9 /* SVN.gitignore in Resources */,
+				23F0A3A81E2762DC00B023E9 /* VVVV.gitignore in Resources */,
+				23F0A3001E2762DC00B023E9 /* ArchLinuxPackages.gitignore in Resources */,
+				23F0A3A11E2762DC00B023E9 /* Textpattern.gitignore in Resources */,
+				23F0A32B1E2762DC00B023E9 /* Cloud9.gitignore in Resources */,
+				23F0A31C1E2762DC00B023E9 /* ExpressionEngine.gitignore in Resources */,
+				23F0A36B1E2762DC00B023E9 /* Kohana.gitignore in Resources */,
+				23F0A32A1E2762DC00B023E9 /* Calabash.gitignore in Resources */,
+				23F0A3391E2762DC00B023E9 /* JetBrains.gitignore in Resources */,
+				23F0A36F1E2762DC00B023E9 /* LemonStand.gitignore in Resources */,
+				23F0A3601E2762DC00B023E9 /* Grails.gitignore in Resources */,
+				23F0A30C1E2762DC00B023E9 /* Concrete5.gitignore in Resources */,
+				23F0A31E1E2762DC00B023E9 /* Fancy.gitignore in Resources */,
+				23F0A3AD1E2762DC00B023E9 /* Yii.gitignore in Resources */,
+				23F0A3771E2762DC00B023E9 /* MetaProgrammingSystem.gitignore in Resources */,
+				23F0A34A1E2762DC00B023E9 /* Otto.gitignore in Resources */,
+				23F0A3461E2762DC00B023E9 /* MonoDevelop.gitignore in Resources */,
+				23F0A3121E2762DC00B023E9 /* Dart.gitignore in Resources */,
+				23F0A2FC1E2762DC00B023E9 /* Agda.gitignore in Resources */,
+				23F0A3201E2762DC00B023E9 /* ForceDotCom.gitignore in Resources */,
+				23F0A3A51E2762DC00B023E9 /* Unity.gitignore in Resources */,
+				23F0A3801E2762DC00B023E9 /* Packer.gitignore in Resources */,
+				23F0A2FB1E2762DC00B023E9 /* Ada.gitignore in Resources */,
+				23F0A35F1E2762DC00B023E9 /* Gradle.gitignore in Resources */,
+				23F0A3851E2762DC00B023E9 /* Prestashop.gitignore in Resources */,
+				23F0A3071E2762DC00B023E9 /* Clojure.gitignore in Resources */,
+				23F0A3111E2762DC00B023E9 /* D.gitignore in Resources */,
+				23F0A3841E2762DC00B023E9 /* Plone.gitignore in Resources */,
+				23F0A3A21E2762DC00B023E9 /* TurboGears2.gitignore in Resources */,
+				23F0A37C1E2762DC00B023E9 /* OCaml.gitignore in Resources */,
+				23F0A3941E2762DC00B023E9 /* SCons.gitignore in Resources */,
+				23F0A3901E2762DC00B023E9 /* Rust.gitignore in Resources */,
+				23F0A3791E2762DC00B023E9 /* Nim.gitignore in Resources */,
+				23F0A3821E2762DC00B023E9 /* Phalcon.gitignore in Resources */,
+				23F0A3371E2762DC00B023E9 /* GPG.gitignore in Resources */,
+				23F0A3101E2762DC00B023E9 /* CUDA.gitignore in Resources */,
+				23F0A34E1E2762DC00B023E9 /* SBT.gitignore in Resources */,
+				23F0A3761E2762DC00B023E9 /* Mercury.gitignore in Resources */,
+				23F0A3131E2762DC00B023E9 /* Delphi.gitignore in Resources */,
+				23F0A3641E2762DC00B023E9 /* IGORPro.gitignore in Resources */,
+				23F0A31B1E2762DC00B023E9 /* Erlang.gitignore in Resources */,
+				23F0A3311E2762DC00B023E9 /* Eclipse.gitignore in Resources */,
+				23F0A3961E2762DC00B023E9 /* Sdcc.gitignore in Resources */,
+				23F0A3991E2762DC00B023E9 /* Smalltalk.gitignore in Resources */,
+				23F0A3431E2762DC00B023E9 /* MicrosoftOffice.gitignore in Resources */,
+				23F0A3A31E2762DC00B023E9 /* Typo3.gitignore in Resources */,
+				23F0A35B1E2762DC00B023E9 /* Windows.gitignore in Resources */,
+				23F0A2FF1E2762DC00B023E9 /* AppEngine.gitignore in Resources */,
+				23F0A30B1E2762DC00B023E9 /* Composer.gitignore in Resources */,
+				23F0A39B1E2762DC00B023E9 /* SugarCRM.gitignore in Resources */,
+				23F0A3421E2762DC00B023E9 /* Mercurial.gitignore in Resources */,
+				23F0A3621E2762DC00B023E9 /* Haskell.gitignore in Resources */,
+				23F0A3971E2762DC00B023E9 /* SeamGen.gitignore in Resources */,
+				23F0A3381E2762DC00B023E9 /* JDeveloper.gitignore in Resources */,
+				23F0A33B1E2762DC00B023E9 /* KDevelop4.gitignore in Resources */,
+				23F0A34F1E2762DC00B023E9 /* SlickEdit.gitignore in Resources */,
+				23F0A3A41E2762DC00B023E9 /* Umbraco.gitignore in Resources */,
+				23F0A3261E2762DC00B023E9 /* Ansible.gitignore in Resources */,
+				23F0A38E1E2762DC00B023E9 /* ROS.gitignore in Resources */,
+				23F0A3AB1E2762DC00B023E9 /* Xojo.gitignore in Resources */,
+				23F0A35C1E2762DC00B023E9 /* Xcode.gitignore in Resources */,
+				23F0A3A01E2762DC00B023E9 /* TeX.gitignore in Resources */,
+				23F0A3361E2762DC00B023E9 /* FlexBuilder.gitignore in Resources */,
+				23F0A2FD1E2762DC00B023E9 /* Android.gitignore in Resources */,
+				23F0A3951E2762DC00B023E9 /* Scrivener.gitignore in Resources */,
+				23F0A3061E2762DC00B023E9 /* ChefCookbook.gitignore in Resources */,
+				23F0A3881E2762DC00B023E9 /* Qooxdoo.gitignore in Resources */,
+				23F0A3021E2762DC00B023E9 /* C++.gitignore in Resources */,
+				23F0A33C1E2762DC00B023E9 /* Lazarus.gitignore in Resources */,
+				23F0A39C1E2762DC00B023E9 /* Swift.gitignore in Resources */,
+				23F0A3341E2762DC00B023E9 /* Ensime.gitignore in Resources */,
+				23F0A32D1E2762DC00B023E9 /* CVS.gitignore in Resources */,
+				23F0A3611E2762DC00B023E9 /* GWT.gitignore in Resources */,
+				23F0A3141E2762DC00B023E9 /* DM.gitignore in Resources */,
+				23F0A31A1E2762DC00B023E9 /* EPiServer.gitignore in Resources */,
+				23F0A3741E2762DC00B023E9 /* Magento.gitignore in Resources */,
+				23F0A37B1E2762DC00B023E9 /* Objective-C.gitignore in Resources */,
+				23F0A1891E2762BC00B023E9 /* Assets.xcassets in Resources */,
+				23F0A3591E2762DC00B023E9 /* VisualStudioCode.gitignore in Resources */,
+				23F0A3151E2762DC00B023E9 /* Drupal.gitignore in Resources */,
+				23F0A3191E2762DC00B023E9 /* Elm.gitignore in Resources */,
+				23F0A3161E2762DC00B023E9 /* Eagle.gitignore in Resources */,
+				23F0A34D1E2762DC00B023E9 /* Redis.gitignore in Resources */,
+				23F0A3031E2762DC00B023E9 /* C.gitignore in Resources */,
+				23F0A31D1E2762DC00B023E9 /* ExtJs.gitignore in Resources */,
+				23F0A3051E2762DC00B023E9 /* CFWheels.gitignore in Resources */,
+				23F0A32E1E2762DC00B023E9 /* DartEditor.gitignore in Resources */,
+				23F0A3781E2762DC00B023E9 /* Nanoc.gitignore in Resources */,
+				23F0A3AF1E2762DC00B023E9 /* Zephir.gitignore in Resources */,
+				23F0A1871E2762BC00B023E9 /* Main.storyboard in Resources */,
+				23F0A35D1E2762DC00B023E9 /* XilinxISE.gitignore in Resources */,
+				23F0A3271E2762DC00B023E9 /* Archives.gitignore in Resources */,
+				23F0A3581E2762DC00B023E9 /* VirtualEnv.gitignore in Resources */,
+				23F0A3701E2762DC00B023E9 /* LICENSE in Resources */,
+				23F0A3321E2762DC00B023E9 /* EiffelStudio.gitignore in Resources */,
+				23F0A2FA1E2762DC00B023E9 /* Actionscript.gitignore in Resources */,
+				23F0A3281E2762DC00B023E9 /* Bazaar.gitignore in Resources */,
+				23F0A3731E2762DC00B023E9 /* Lua.gitignore in Resources */,
+				23F0A32F1E2762DC00B023E9 /* Dreamweaver.gitignore in Resources */,
+				23F0A30A1E2762DC00B023E9 /* CommonLisp.gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F0A1751E2762BC00B023E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F0A2F91E2762DC00B023E9 /* PULL_REQUEST_TEMPLATE.md in Sources */,
+				23F0A3DC1E2762DC00B023E9 /* UIButton+singleAction.m in Sources */,
+				23F0A2F31E2762DC00B023E9 /* NSMutableAttributedString+AvoidCrash.m in Sources */,
+				23F0A3E01E2762DC00B023E9 /* UIImageView+ZCYKit.m in Sources */,
+				23F0A3CF1E2762DC00B023E9 /* NSString+MD5.m in Sources */,
+				23F0A3C01E2762DC00B023E9 /* ZCYNavigationController.m in Sources */,
+				23F0A3D21E2762DC00B023E9 /* UIColor+JKHEX.m in Sources */,
+				23F0A3DE1E2762DC00B023E9 /* UIDevice+ZCYKit.m in Sources */,
+				23F0A3BD1E2762DC00B023E9 /* UIView+ZCYAutoLayout.m in Sources */,
+				23F0A3D61E2762DC00B023E9 /* UIImage+JKRoundedCorner.m in Sources */,
+				23F0A2F71E2762DC00B023E9 /* NSString+AvoidCrash.m in Sources */,
+				23F0A3CE1E2762DC00B023E9 /* NSString+JKNormalRegex.m in Sources */,
+				23F0A3D91E2762DC00B023E9 /* NSObject+GetCurrentScreenViewController.m in Sources */,
+				23F0A2EF1E2762DC00B023E9 /* NSArray+AvoidCrash.m in Sources */,
+				23F0A3DF1E2762DC00B023E9 /* UIImage+ZCYKit.m in Sources */,
+				23F0A3B11E2762DC00B023E9 /* MASConstraint.m in Sources */,
+				23F0A3B41E2762DC00B023E9 /* MASViewAttribute.m in Sources */,
+				23F0A1841E2762BC00B023E9 /* ViewController.m in Sources */,
+				23F0A3B01E2762DC00B023E9 /* MASCompositeConstraint.m in Sources */,
+				23F0A3C61E2762DC00B023E9 /* ZCYTopSlider.m in Sources */,
+				23F0A3DB1E2762DC00B023E9 /* UIButton+ImageTitleLayout.m in Sources */,
+				23F0A3BF1E2762DC00B023E9 /* ZCYFilterMenu.m in Sources */,
+				23F0A3C41E2762DC00B023E9 /* ZCYStarRating.m in Sources */,
+				23F0A3BA1E2762DC00B023E9 /* MBProgressHUD.m in Sources */,
+				23F0A3B81E2762DC00B023E9 /* View+MASAdditions.m in Sources */,
+				23F0A3CC1E2762DC00B023E9 /* NSDictionary+CLLocation.m in Sources */,
+				23F0A3D31E2762DC00B023E9 /* UIImage+JKAlpha.m in Sources */,
+				23F0A3C71E2762DC00B023E9 /* ZCYVersionManager.m in Sources */,
+				23F0A1811E2762BC00B023E9 /* AppDelegate.m in Sources */,
+				23F0A3D81E2762DC00B023E9 /* UITableViewCell+getIndexPath.m in Sources */,
+				23F0A38C1E2762DC00B023E9 /* README.md in Sources */,
+				23F0A30D1E2762DC00B023E9 /* CONTRIBUTING.md in Sources */,
+				23F0A3E11E2762DC00B023E9 /* UIView+ZCYKit.m in Sources */,
+				23F0A3CB1E2762DC00B023E9 /* NSDate+JKExtension.m in Sources */,
+				23F0A3D11E2762DC00B023E9 /* UICollectionViewCell+getMyIndexPath.m in Sources */,
+				23F0A3C21E2762DC00B023E9 /* ZCYQRCodeReader.m in Sources */,
+				23F0A2F81E2762DC00B023E9 /* ZCYAnimation.m in Sources */,
+				23F0A3B61E2762DC00B023E9 /* NSArray+MASAdditions.m in Sources */,
+				23F0A3B71E2762DC00B023E9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				23F0A2F01E2762DC00B023E9 /* NSAttributedString+AvoidCrash.m in Sources */,
+				23F0A3C51E2762DC00B023E9 /* ZCYTextView.m in Sources */,
+				23F0A3D51E2762DC00B023E9 /* UIImage+JKResize.m in Sources */,
+				23F0A2F11E2762DC00B023E9 /* NSDictionary+AvoidCrash.m in Sources */,
+				23F0A3BB1E2762DC00B023E9 /* ZCYClassMethods.m in Sources */,
+				23F0A3C91E2762DC00B023E9 /* Foundation+Log.m in Sources */,
+				23F0A17E1E2762BC00B023E9 /* main.m in Sources */,
+				23F0A3BE1E2762DC00B023E9 /* ZCYCollectionViewFlowLayout.m in Sources */,
+				23F0A3B91E2762DC00B023E9 /* ViewController+MASAdditions.m in Sources */,
+				23F0A3DA1E2762DC00B023E9 /* NSObject+ZCYKit.m in Sources */,
+				23F0A3B51E2762DC00B023E9 /* MASViewConstraint.m in Sources */,
+				23F0A3D41E2762DC00B023E9 /* UIImage+JKColor.m in Sources */,
+				23F0A3B21E2762DC00B023E9 /* MASConstraintMaker.m in Sources */,
+				23F0A3C81E2762DC00B023E9 /* CLLocation+GPSDictionary.m in Sources */,
+				23F0A34B1E2762DC00B023E9 /* README.md in Sources */,
+				23F0A3CA1E2762DC00B023E9 /* NSData+JKBase64.m in Sources */,
+				23F0A2F51E2762DC00B023E9 /* NSMutableString+AvoidCrash.m in Sources */,
+				23F0A2EE1E2762DC00B023E9 /* AvoidCrash.m in Sources */,
+				23F0A3B31E2762DC00B023E9 /* MASLayoutConstraint.m in Sources */,
+				23F0A3BC1E2762DC00B023E9 /* UITableView+ZCYAutoLayoutCellHeight.m in Sources */,
+				23F0A2F41E2762DC00B023E9 /* NSMutableDictionary+AvoidCrash.m in Sources */,
+				23F0A3CD1E2762DC00B023E9 /* NSString+JKBase64.m in Sources */,
+				23F0A2F21E2762DC00B023E9 /* NSMutableArray+AvoidCrash.m in Sources */,
+				23F0A3C31E2762DC00B023E9 /* ZCySegmentedBar.m in Sources */,
+				23F0A3C11E2762DC00B023E9 /* QRCodeReaderSupport.m in Sources */,
+				23F0A3E21E2762DC00B023E9 /* ZCYInstanceMethods.m in Sources */,
+				23F0A3DD1E2762DC00B023E9 /* UIButton+ZCYBadge.m in Sources */,
+				23F0A3D01E2762DC00B023E9 /* NSString+RENumberFormat.m in Sources */,
+				23F0A3D71E2762DC00B023E9 /* UIScrollView+leftSlide.m in Sources */,
+				23F0A2F61E2762DC00B023E9 /* NSObject+AvoidCrash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23F0A1851E2762BC00B023E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F0A1861E2762BC00B023E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23F0A18A1E2762BC00B023E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F0A18B1E2762BC00B023E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F0A18E1E2762BC00B023E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23F0A18F1E2762BC00B023E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F0A1911E2762BC00B023E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q92865FYE5;
+				INFOPLIST_FILE = ZCYLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huayuan320.ZCYLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23F0A1921E2762BC00B023E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q92865FYE5;
+				INFOPLIST_FILE = ZCYLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huayuan320.ZCYLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F0A1741E2762BC00B023E9 /* Build configuration list for PBXProject "ZCYLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F0A18E1E2762BC00B023E9 /* Debug */,
+				23F0A18F1E2762BC00B023E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F0A1901E2762BC00B023E9 /* Build configuration list for PBXNativeTarget "ZCYLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F0A1911E2762BC00B023E9 /* Debug */,
+				23F0A1921E2762BC00B023E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F0A1711E2762BC00B023E9 /* Project object */;
+}
