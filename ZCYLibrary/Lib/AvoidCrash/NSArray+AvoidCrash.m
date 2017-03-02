@@ -53,7 +53,6 @@
         //以下是对错误数据的处理，把为nil的数据去掉,然后初始化数组
         NSInteger newObjsIndex = 0;
         id  _Nonnull __unsafe_unretained newObjects[cnt];
-        
         for (int i = 0; i < cnt; i++) {
             if (objects[i] != nil) {
                 newObjects[newObjsIndex] = objects[i];

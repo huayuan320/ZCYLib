@@ -1,9 +1,9 @@
 //
 //  NSDictionary+Log.m
-//  05-掌握-多值参数
+//
 //
 //  Created by xiaomage on 15/7/13.
-//  Copyright (c) 2015年 小码哥. All rights reserved.
+//  Copyright (c) 2015年 赵晨宇. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
